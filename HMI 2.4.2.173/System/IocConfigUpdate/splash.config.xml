@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+      <!--  <container> 
+          
+            <type type="Beckhoff.App.Core.Interfaces.IBASplash, Beckhoff.App.Core.Interfaces" mapTo="Beckhoff.App.Shell.UI.Splash.SplashWindow, Beckhoff.App.Shell.UI.Splash">
+                <lifetime type="singleton"></lifetime>
+            </type>                  
+        </container> -->
+
+      <container>
+        <!-- Beckhoff Splash Interface -->
+        <type type="Beckhoff.App.Core.Interfaces.IBASplash, Beckhoff.App.Core.Interfaces" mapTo="Beckhoff.App.Shell.UI.Splash4.SplashWindow, Beckhoff.App.Shell.UI.Splash4">
+          <lifetime type="singleton"></lifetime>
+        </type>
+      </container>
+
+    </unity>
+</configuration>

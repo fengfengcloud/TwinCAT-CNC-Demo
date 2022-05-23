@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="796; 645" Text="NewForm">
+		<FrameName>Frame1</FrameName>
+		<NumElements>9</NumElements>
+		<TcPictureBox ImageLocationIndicatorOn=".\Images\Tank.JPG" Name="Control2" Location="45; 63" TabIndex="1" Size="183; 410" SizeMode="StretchImage">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcPictureBox>
+		<TcPictureBox ImageLocationIndicatorOn=".\Images\Tank.JPG" Name="Control3" Location="252; 64" TabIndex="1" Size="183; 410" SizeMode="StretchImage">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcPictureBox>
+		<AdvancedTank Size="105; 200" Location="82; 180" Name="Control1" TicksSubDivisionsCount="0" BarWidth="30" TabIndex="0" IndicatorWidth="35" Text="AdvancedTank" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUEABS" LiquidColor="DodgerBlue" BarIndent="25">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedTank>
+		<AdvancedTank Size="97; 200" Location="291; 182" Name="Control4" TicksSubDivisionsCount="0" BarWidth="30" TabIndex="0" IndicatorWidth="35" Enabled="False" Text="AdvancedTank" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUEABS" LiquidColor="255; 128; 128" BarIndent="25">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedTank>
+		<Label Size="183; 23" Name="Control5" Location="47; 25" Text="Silo 1" TabIndex="2" Font="Microsoft Sans Serif; 12pt; style=Bold" BackColor="DodgerBlue" ForeColor="White" TextAlign="MiddleCenter">
+			<Namespace>System.Windows.Forms</Namespace>
+		</Label>
+		<Label Size="183; 23" Name="Control6" Location="252; 26" Text="Silo 2" TabIndex="2" Font="Microsoft Sans Serif; 12pt; style=Bold" BackColor="DodgerBlue" ForeColor="White" TextAlign="MiddleCenter">
+			<Namespace>System.Windows.Forms</Namespace>
+		</Label>
+		<TcValue Name="Control7" Location="174; 450" TabIndex="3" FormatString="0\%" Size="46; 17" PlcVariableName="SINEDEMO.Y_VALUEABS" TextAlignment="MiddleCenter">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcValue>
+		<TcValue Name="Control8" Location="383; 451" TabIndex="3" FormatString="0\%" Size="45; 17" PlcVariableName="SINEDEMO.Y_VALUEABS" TextAlignment="MiddleCenter">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcValue>
+		<TcImageButton Name="Control9" Location="465; 43" TabIndex="4" Size="281; 532" Image="System.Drawing.Bitmap" ImageLocation=".\Images\Tank.bmp" ImageTransparent="True">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcImageButton>
+	</DesignerFrame>
+</TcHmiDesigner>

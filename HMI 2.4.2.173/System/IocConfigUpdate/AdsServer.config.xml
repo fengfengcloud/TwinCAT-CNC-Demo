@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+        <container> 
+		  <!-- ADSServer -->
+		  <type type="Beckhoff.App.Ads.Core.IBAAdsServer, Beckhoff.App.Ads.Core" mapTo="Beckhoff.App.Ads.Core.BAAdsServer, Beckhoff.App.Ads.Core">
+            <lifetime type="singleton">
+            </lifetime>
+          </type>
+		</container>
+    </unity>
+</configuration>

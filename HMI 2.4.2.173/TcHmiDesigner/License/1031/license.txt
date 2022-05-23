@@ -1,0 +1,290 @@
+Vertrag zur Nutzung von Software für Beckhoff Softwareprodukte
+
+§ 1 	Vertragsgegenstand
+(1)	Der Lizenzgeber gewährt dem Kunden ein nicht übertragbares,
+nicht ausschließliches Recht, die in Anlage 1 zu diesem Vertrag
+genannten Datenverarbeitungsprogramme (nachfolgend "Software"
+genannt) in den Ländern der Europäischen Union zu den nachstehenden
+Bedingungen zu nutzen. 
+(2)	Die Software wird dem Kunden auf in Anlage 1 bezeichneten
+maschinenlesbaren Aufzeichnungsträgern überlassen, auf der sie als
+Objektprogramm im ausführbaren Zustand aufgezeichnet ist. Zum
+Programm gehört eine Anwendungsdokumentation, die dem Kunden
+in druckschriftlicher Form, auf maschinenlesbarem Aufzeichnungsträger
+oder online zugänglich gemacht wird. Die Art der Überlassung der
+Anwendungsdokumentation ist in Anlage 1 gekennzeichnet. Software
+und Dokumentation werden nachfolgend als "Lizenzmaterial" bezeichnet.
+(3)	Zum Lizenzmaterial gehören auf den maschinenlesbaren Trägern
+aufgezeichnete Datenbestände (Dateien, Datenbankmaterial), die Teil
+der in Anlage 1 angegebenen Software sind oder dort an deren Stelle
+genannt sind. 
+(4)	Zum Lizenzmaterial gehören auch Neuauflagen oder Ergänzungen
+des Lizenzmaterials, die der Lizenzgeber dem Kunden während der Dauer
+des Vertrages - in der Regel entgeltlich - überlässt. 
+
+§ 2	Nutzungsberechtigung
+(1) 	Der Kunde erkennt an, dass der Lizenzgeber alleiniger
+Rechtsinhaber der in Anlage 1 beschriebenen Software sowie des
+gesamten damit zusammenhängenden Know how ist. Er wird Angriffe
+auf diese Rechte unterlassen. Dritte wird er auf die
+Rechtsinhaberschaft des Lizenzgebers in geeigneter Weise hinweisen. 
+(2) 	Dem Kunden wird nur ein beschränktes Nutzungsrecht in dem
+Umfang eingeräumt wie es der Zweck dieses Vertrages unbedingt
+erfordert. Die nachfolgenden Regelungen sind Ausprägungen dieses
+Grundsatzes und sind im Zweifel eng auszulegen. Durch diesen Vertrag
+soll sich das Urheberrecht des Lizenzgebers an der Software in
+keinem Fall erschöpfen.
+
+§ 3	Nutzungsumfang
+(1)	Der Kunde ist berechtigt, die überlassene Software auf der in
+Anlage 1 bezeichneten zentralen Datenverarbeitungseinheit zu nutzen.
+(2)	"Nutzen" umfaßt das vollständige oder teilweise Einspeichern
+(Kopieren) der Software und der Datenbestände in die bezeichnete
+Datenverarbeitungseinheit, die Ausführung der Programme, die
+Verarbeitung der Datenbestände und die Herstellung von weiteren
+Kopien dieses Materials in maschinenlesbarer Form, soweit dies für
+die vertragsgemäße Nutzung notwendig ist. In Geräten, die an die
+in Anlage 1 bezeichnete zentrale Datenverarbeitungseinheit
+angeschlossen werden (z.B. Eingabe- und Ausgabeeinheiten), ist die
+Nutzungsberechtigung auf die Übertragung, Speicherung und Anzeige
+der Software, der Datenbestände oder von Teilen dieses Materials
+beschränkt.
+(3)	Wird gemäß Anlage 1 die Anwendungsdokumentation ebenfalls
+auf maschinenlesbarem Träger überlassen, gilt Abs. (2) auch für diese.
+(4)	Ist die in der Anlage 1 bezeichnete zentrale Datenver-
+arbeitungseinheit vorübergehend nicht einsatzfähig, hat der Kunde
+das Recht, die Software und die Datenbestände während dieser Zeit
+auf einer anderen zentralen Datenverarbeitungseinheit zu nutzen.
+In allen anderen Fällen erfordert die Nutzung der Software und der
+Datenbestände auf einer anderen als der bezeichneten zentralen
+Datenverarbeitungseinheit die schriftliche Zustimmung des Lizenz-
+gebers.
+(5)	In druckschriftlicher Form überlassenes Lizenzmaterial
+darf nur mit schriftlicher Zustimmung des Lizenzgebers vervielfältigt
+werden. Zusätzliche Exemplare des druckschriftlichen Lizenzmaterials
+können vom Lizenzgeber unter diesem Vertrag gebührenpflichtig bezogen
+werden. 
+(6)	Zur vertragsgemäßen Nutzung gehört die Herstellung von Sicherungs-
+kopien der überlassenen Software und auch die Beobachtung, die
+Untersuchung und der Test der Software bei ihrem Lauf, bei ihrer
+Speicherung und Übertragung sowie durch Anzeige auf dem Bildschirm. 
+(7)	Der Kunde ist berechtigt, die überlassene Software mit
+anderen Software-Programmen zu verbinden (Herstellung von
+Interoperabilität). Die Anwendungsdokumentation enthält eine
+Beschreibung der hierfür vorgesehenen Schnittstellen. Im übrigen
+ist der Kunde nicht berechtigt, Änderungen, Übersetzungen oder
+andere Bearbeitungen und Umgestaltungen der Software vorzunehmen.
+Ebenso ist eine Rückübersetzung der Software in die Form von
+Quellenprogrammen oder in andere Darstellungsformen ausgeschlossen.
+Eine Rückübersetzung von Programmteilen zum Zwecke der Herstellung
+von Interoperabilität eines unabhängig geschaffenen DV-Programms
+mit anderer Software unterliegt den dafür geltenden gesetzlichen
+Bestimmungen.
+(8)	Der Kunde ist nicht berechtigt, die hierin genannten
+Rechte auf Dritte zu übertragen oder diesen entsprechende
+Nutzungsrechte einzuräumen. Sollte eine solche Übertragung
+dennoch erfolgen oder das Vervielfältigungsstück an Dritte
+weitergegeben werden, stellt der Lizenznehmer den Lizenzgeber
+von allen Ansprüchen frei, die diese Dritte gegen den Lizenzgeber
+geltend machen können.
+
+§ 4	Schutz des Lizenzmaterials
+(1)	Unbeschadet der gemäß §§ 1, 2 und 3 eingeräumten
+Nutzungsrechte behält der Lizenzgeber alle Rechte am Lizenzmaterial
+einschließlich aller vom Kunden hergestellten Kopien oder Teilkopien
+desselben. Das Eigentum des Kunden an maschinenlesbaren Aufzeich-
+nungsträgern, Datenspeichern und Datenverarbeitungsgeräten wird
+hiervon nicht berührt. 
+(2)	Der Kunde verpflichtet sich, die im Lizenzmaterial enthaltenen
+Schutzvermerke, wie Copyright-Vermerke und andere Rechtsvorbehalte
+unverändert beizubehalten sowie in alle vom Kunden hergestellten
+vollständigen oder teilweisen Kopien von maschinenlesbarem
+Lizenzmaterial in unveränderter Form zu übernehmen. Wenn und
+soweit das Lizenzmaterial Quellcodes enthält, ist der Lizenznehmer
+verpflichtet, diese geheim zu halten und insbesondere nicht zu
+veröffentlichen.
+(3)	Der Kunde wird über die von ihm vertragsgemäß hergestellten
+Kopien oder Teilkopien von maschinenlesbarem Lizenzmaterial Buch
+führen und sie an einem sicheren Ort aufbewahren sowie auf Anfrage
+hierüber Auskunft erteilen. 
+(4)	Der Kunde verpflichtet sich, das Lizenzmaterial ohne
+ausdrückliche schriftliche Zustimmung des Lizenzgebers weder
+im Original noch in Form von vollständigen oder teilweisen Kopien
+Dritten zugänglich zu machen. Dies gilt auch für den Fall einer
+vollständigen oder teilweisen Veräußerung oder Auflösung des
+Unternehmens des Kunden. Als Dritte gelten nicht Arbeitnehmer
+des Kunden oder andere Personen, solange sie sich zur vertrags-
+gemäßen Nutzung des Lizenzmaterials für den Kunden bei diesem
+aufhalten.
+(5)	Der Kunde wird vor der Vernichtung, dem Verkauf oder der
+sonstigen Weitergabe von maschinenlesbaren Aufzeichnungsträgern,
+Datenspeichern oder Datenverarbeitungsgeräten darin gespeichertes
+Lizenzmaterial vollständig löschen.
+(6)	Der Kunde hat das Recht, eine ihm überlassene Neuauflage
+des Lizenzmaterials vertragsgemäß zu nutzen oder auf eine solche
+Nutzung zu verzichten.
+
+§ 5	Lieferung
+(1)	Der Kunde erhält jeweils eine Lieferkopie der Software sowie
+der Anwendungsdokumentation auf einem in Anlage 1 bezeichneten
+maschinenlesbaren Aufzeichnungsträger. 
+(2)	Wird der das Lizenzmaterial enthaltende Aufzeichnungsträger
+während des Transports oder nach Empfang beim Kunden beschädigt oder
+versehentlich gelöscht, liefert der Lizenzgeber Ersatz gegen Berech-
+nung der Versandkosten und der Kosten des Aufzeichnungstägers.
+
+§ 6	Gebühren
+(1)	Die Lizenzgebühren sind in Anlage 1 als Einmalgebühr festgelegt.
+Für bestimmte Neuauflagen und Ergänzungen des Lizenzprogramms wird eine
+in Anlage 1 gegebenenfalls festgelegte Zusatzgebühr berechnet. 
+(2)	Die Gebühren werden nach Auslieferung der Software an den
+Kunden fällig. Alle Gebühren sind innerhalb von zehn Tagen ohne
+Abzug zahlbar. Die Umsatzsteuer wird gesondert berechnet. 
+
+§ 7	Gewährleistung
+(1) 	Der Lizenzgeber macht für die von ihm angebotene Software eine
+Anwendungsdokumentation verfügbar, die den bestimmungsgemäßen Gebrauch
+und die Einsatzbedingungen der Software angibt.
+(2) 	Für die Software in der dem Kunden überlassenen Fassung
+gewährleistet der Lizenzgeber den vertragsgemäßen Gebrauch in
+Übereinstimmung mit der bei Versand gültigen Anwendungsdokumentation.
+Dies gilt insbesondere für Garantien, die nur in der Anwendungs-
+dokumentation enthalten sein können und als solche besonders
+gekennzeichnet und hervorgehoben sein müssen; im Zweifel handelt
+es sich nicht um Garantien 
+(3)	Im Falle erheblicher Abweichungen von der Anwendungs-
+dokumentation ist der Lizenzgeber zur Nacherfüllung berechtigt
+und verpflichtet. Der Lizenzgeber hat das Recht, die Art der
+Nacherfüllung zu bestimmen. Gelingt es dem Lizenzgeber innerhalb
+einer angemessenen Frist nicht, durch Nacherfüllung die erheblichen
+Abweichungen von der Anwendungsdokumentation zu beseitigen oder so
+zu umgehen, daß dem Kunden eine vertragsgemäße Nutzung des Programms
+ermöglicht wird, kann der Kunde eine Herabsetzung der Lizenzgebühren
+verlangen oder, wenn die Software für den Kunden ohne Nutzen ist,
+die Lizenz für die Software fristlos gegen Erstattung der Einmal-
+lizenz durch den Lizenzgeber kündigen.
+(4) 	Der Kunde ist verpflichtet, dem Lizenzgeber nachprüfbare
+Unterlagen über Art und Auftreten von Abweichungen der Software
+in ihrem Verhalten von der Anwendungsdokumentation zur Verfügung
+zu stellen und bei der Eingrenzung von Fehlern mitzuwirken.
+(5) 	Die Gewährleistung erstreckt sich nicht auf Mängel, die
+dadurch verursacht werden, dass der Kunde von den für die Software
+vorgesehenen und in der Anwendungsdokumentation angegebenen
+Einsatzbedingungen abweicht.
+(6) 	Die Gewährleistungsfrist endet spätestens ein (1) Jahr nach
+Übergabe der Software an den Kunden. Andere als die in diesem § 7
+und in § 8 genannten Mängelansprüche sind ausgeschlossen.
+
+§ 8	Haftungsbeschränkung
+(1)	Der Lizenzgeber haftet gegenüber dem Kunden für vorsätzlich
+oder grob fahrlässig von ihm oder seinen Erfüllungsgehilfen
+verursachte Schäden sowie für das Fehlen garantierter Eigenschaften
+stets.
+(2)	Über Abs. 1 hinaus haftet der Lizenzgeber nur für von ihm
+oder seinen Erfüllungsgehilfen verschuldete mangelhafte Ausführung,
+soweit sie wesentliche Funktionen der gelieferten Software betreffen
+sowie für von dem Lizenzgeber oder seinen Erfüllungsgehilfen
+verschuldete Verletzung oder Nichterfüllung anderer für die
+Durchführung dieses Vertrages wesentlicher Pflichten.
+(3)	Wenn der Lizenzgeber oder seine Erfüllungsgehilfen die in
+Abs. 2 beschriebenen Vertragspflichten leicht fahrlässig verletzen,
+ist der Lizenzgeber nur zum Ersatz des für den Lizenzgeber beim
+Abschluss der einzelnen Geschäfte vorhersehbaren Schadens
+verpflichtet. Der Kunde ist verpflichtet, den Lizenzgeber vor
+Vertragsabschluss schriftlich auf besondere Risiken, atypische
+Schadensmöglichkeiten und ungewöhnliche Schadenshöhen hinzuweisen.
+Die Haftung für jegliche Folgeschäden, mangelnden wirtschaftlichen
+Erfolg, mittelbare Schäden und für Schäden aus Ansprüchen Dritter
+ist ausgeschlossen; darunter fallen insbesondere solche Schäden,
+die durch den Einsatz der Software zur Erstellung weiterer Software
+verursacht werden. Die Haftung des Lizenzgebers ist ferner der
+Höhe nach in jedem Einzelfall begrenzt bei Personenschäden
+auf EUR 50.000.- und bei Sachschäden auf EUR 5.000.-; im übrigen
+auf das sechsfache der Lizenzgebühr für die betroffene Lieferkopie.
+Maßgebend sind die bei der Entstehung des Anspruchs geltenden
+Gebühren ohne Umsatzsteuer.
+Für die Wiederbeschaffung von Daten haftet der Lizenzgeber nur,
+wenn der Kunde sichergestellt hat, daß diese Daten im Sinne
+ordnungsgemäßer Datenverarbeitung aus Datenbeständen, die in
+maschinenlesbarer Form bereitgehalten werden, mit vertretbarem
+Aufwand reproduzierbar sind.
+(4) 	Die gleichen Beschränkungen der Haftung des Lizenzgebers
+nach dem vorstehenden Abs. 3 gelten für jede schuldhafte Verletzung
+von Vertragspflichten durch einfache Erfüllungsgehilfen.
+(5) 	Die Haftung nach dem Produkthaftungsgesetz bleibt von den
+vorstehenden Regelungen unberührt.
+
+§ 9	Schutzrechte Dritter
+(1)	Der Lizenzgeber kann nach freiem Ermessen darüber entscheiden,
+ob er den Kunden gegen Ansprüche verteidigt, die aus einer Verletzung
+eines gewerblichen Schutzrechtes oder Urheberrechtes durch die
+vertragsgemäß genutzte Software hergeleitet werden. Der Kunde wird
+den Lizenzgeber von solchen Ansprüchen unverzüglich schriftlich
+benachrichtigen. Verteidigt der Lizenzgeber den Kunden nicht, steht
+es dem Kunden frei, selbst die Verteidigung zu übernehmen. Der
+Lizenzgeber unterstützt den Kunden dabei ebenso, wie der Kunde
+verpflichtet ist, den Lizenzgeber zu unterstützen.
+(2) 	Sind gegen den Kunden Ansprüche gem. Absatz 1 geltend gemacht
+worden oder zu erwarten, kann der Lizenzgeber auf seine Kosten das
+Lizenzmaterial in einem für den Kunde zumutbaren Umfang ändern oder
+austauschen. Ist dies oder die Erwirkung eines Nutzungsrechtes mit
+angemessenem Aufwand nicht möglich, kann jeder Vertragspartner die
+Lizenz fristlos kündigen. Im übrigen gelten für die Haftungsbegrenzung
+des Lizenzgebers die in § 8 enthaltenen Regelungen entsprechend.
+
+§ 10	Einsatzbedingungen
+(1)	Das dem Kunden überlassene Lizenzmaterial wurde für den Einsatz
+auf bestimmten Datenverarbeitungsanlagen und für das Zusammenwirken
+mit bestimmter anderer Software entwickelt. Diese Einsatzbedingungen
+sind in der Leistungsbeschreibung angegeben.
+(2)	Bei einer Benutzung des Lizenzmaterials ohne Einhaltung der
+Einsatzbedingungen gemäß Abs. (1) entfällt die Verpflichtung zur
+Gewährleistung nach §§ 7, 8 und 9.
+
+§ 11	Kündigung, Rückgabe und Löschung von Lizenzmaterial
+(1)	Der Vertrag kann von beiden Seiten aus wichtigem Grund
+fristlos gekündigt werden. Dies gilt insbesondere bei Verletzung
+der Bestimmungen nach § 2 "Nutzungsberechtigung", § 3 "Nutzungs-
+umfang" und § 4 "Schutz des Lizenzmaterials".
+(3)	Mit Wirksamwerden einer Kündigung, unabhängig von deren
+Zeitpunkt und Grund, ist der Kunde verpflichtet, das Original
+sowie alle Kopien und Teilkopien des Lizenzmaterials an den
+Lizenzgeber zurückzugeben. Bei Lizenzmaterial, das auf maschinen-
+lesbaren Aufzeichnungsträgern des Kunden aufgezeichnet ist, tritt
+an Stelle der Rückgabe das vollständige Löschen der Aufzeichnung. 
+(4)	Ersetzt der Kunde eine gekündigte (oder vom Lizenzgeber
+durch neuere Version ersetzte) Software durch ein vom Lizenzgeber
+angebotenes Nachfolgeprogramm, ist er berechtigt, die gekündigte
+oder ersetzte Software bis zu drei Monate als Ausweichreserve
+zurückzubehalten. Die Zurückbehaltung einer Archivkopie bedarf
+der schriftlichen Vereinbarung. 
+
+§ 12	Verjährung, Nebenabreden
+(1)	Ansprüche aufgrund einer Verletzung von Bestimmungen
+nach § 2 "Nutzungsberechtigung", § 3 "Nutzungsumfang" und § 4
+"Sicherung der Schutzrechte und des Lizenzmaterials" verjähren
+sechs (6) Jahre nach ihrer Entstehung, alle anderen Ansprüche
+aus diesem Vertrag drei (3) Jahre nach ihrer Entstehung, sofern
+nicht kürzere gesetzliche Verjährungsfristen gelten. 
+(2)	Änderungen oder Ergänzungen dieses Vertrages bedürfen der
+Schriftform. 
+(3)	Ausschließlicher Gerichtsstand für Streitigkeiten aus
+diesem Vertrag ist Verl. Der Lizenzgeber behält sich jedoch vor,
+den Kunden auch an dessen Sitz in Anspruch zu nehmen.
+(4)	Dieser Vertrag sowie alle daraus resultierenden Rechte
+und Pflichten unterliegen dem Recht der Bundesrepublik Deutschland.
+
+
+
+
+Beckhoff Automation GmbH
+Eiserstraße 5
+D-33415 Verl
+Telefon +49 5246/963-0
+Telefax +49 5246/963-149
+http://www.beckhoff.com
+
+
+
+© für den Text des Vertrages: Elektro Beckhoff GmbH
+® Der Name "Beckhoff" ist ein eingetragenes Warenzeichen

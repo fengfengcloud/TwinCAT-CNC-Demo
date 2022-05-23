@@ -1,0 +1,12 @@
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].D_CmdPosition;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].D_ActPosition;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].D_CurrentPosition;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].D_ManOffset;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].D_TotalOffset;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].AxeHBDisplayData_Data.W_State;UINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].AxeHBDisplayData_Data.W_OperationMode;UINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].AxeHBDisplayData_Data.W_ControlElement;UINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].AxeHBDisplayData_Data.D_HRAufloesung;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].AxeHBDisplayData_Data.D_TippGeschw;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].AxeHBDisplayData_Data.D_JogGeschw;DINT;0
+pMC[channel_idx]^.addr^.StateBahn_Data.HLIBahnCoordDispData_Coord[axis_idx].AxeHBDisplayData_Data.D_JogWeg;DINT;0

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="688; 534">
+		<FrameName>Frame1</FrameName>
+		<NumElements>14</NumElements>
+		<Toggle Size="40; 72" Name="Control1" Location="23; 60" Text="Toggle" TabIndex="0" PlcVariableName="MAIN.BGO" Behaviour="CheckBox">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</Toggle>
+		<Light Name="Control2" Location="29; 17" Text="Light" TabIndex="1" PlcVariableName="MAIN.BGO" BackColor="Transparent" Maximum="1">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</Light>
+		<Switch Text="Switch" PlcVariableName="MAIN.BGO" Location="93; 59" Size="32; 73" Name="Control3" TabIndex="2">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</Switch>
+		<ShapeLed Text="ShapeLed" PlcVariableName="MAIN.BGO" Location="92; 17" Shape="Ellipse" Name="Control4" TabIndex="3">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</ShapeLed>
+		<ShapeLed Text="ShapeLed" PlcVariableName="MAIN.BGO" Location="178; 21" Shape="RightTriangle" Name="Control4" TabIndex="3">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</ShapeLed>
+		<ShapeLed Name="Control4" Location="263; 17" Shape="Rectangle" TabIndex="3" InactiveLedColor="Red" Text="ShapeLed" PlcVariableName="MAIN.BGO" ActiveLedColor="LightCoral">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</ShapeLed>
+		<ShapeLed Name="Control4" Location="374; 17" Shape="UpRectArrow" TabIndex="3" InactiveLedColor="Black" Text="ShapeLed" PlcVariableName="MAIN.BGO" ActiveLedColor="LightGray">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</ShapeLed>
+		<MultimediaButton LedShape="RightArrow" Location="153; 82" Shape="Rectangle" TabIndex="4" PlcVariableName="Main.bgo" Size="77; 46" Text="Start" FaceColor="LightBlue" Name="Control8">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</MultimediaButton>
+		<MultimediaButton HighlightColor="AliceBlue" LedShape="RightArrow" Location="249; 82" Shape="RoundedRectangle" TabIndex="4" PlcVariableName="Main.bgo" Size="77; 46" Text="Stop" FaceColor="WhiteSmoke" Name="Control8">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</MultimediaButton>
+		<MultimediaButton HighlightColor="192; 255; 192" LedShape="RightArrow" Location="347; 80" Shape="Ellipse" TabIndex="4" PlcVariableName="Main.bgo" Size="77; 46" Text="Stop" FaceColor="LightGreen" Name="Control8">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</MultimediaButton>
+		<MultimediaButton Size="95; 46" HighlightColor="255; 128; 128" LedShape="Ellipse" Location="15; 231" Shape="RoundedRectangle" TabIndex="4" PlcVariableName="Main.bgo" Font="Microsoft Sans Serif; 9.75pt; style=Bold" Text="Reset" FaceColor="Red" Name="Control8">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</MultimediaButton>
+		<MultimediaButton Size="93; 81" HighlightColor="255; 128; 128" LedShape="Ellipse" Location="136; 217" Shape="Octagon" TabIndex="4" PlcVariableName="Main.bgo" Font="Microsoft Sans Serif; 9.75pt; style=Bold" Text="OFF" FaceColor="255; 128; 0" Name="Control8">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</MultimediaButton>
+		<MultimediaButton Size="80; 80" HighlightColor="LightGreen" LedShape="Ellipse" FaceColor="YellowGreen" Location="260; 217" Shape="Ellipse" TabIndex="4" Font="Microsoft Sans Serif; 9.75pt; style=Bold" Text="ON" PlcVariableName="Main.bgo" Name="Control8" ActiveLedColor="Red">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</MultimediaButton>
+		<MultiPositionSwitch Size="145; 126" Name="Control14" Location="375; 187" Text="Select" TabIndex="5" PlcVariableName="Main.bgo" Cases="A;B;C;D;E;F">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</MultiPositionSwitch>
+	</DesignerFrame>
+</TcHmiDesigner>

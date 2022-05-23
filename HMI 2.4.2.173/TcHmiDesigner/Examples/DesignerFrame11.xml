@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="424; 496">
+		<FrameName>Frame1</FrameName>
+		<NumElements>8</NumElements>
+		<TcRadioButton Text="TcRadioButton" TabIndex="0" Location="26; 111">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcRadioButton>
+		<TcRadioButton Size="238; 49" Location="161; 111" TabIndex="0" Font="Tahoma; 15.75pt; style=Bold" Text="TcRadioButton" ForeColor="Crimson">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcRadioButton>
+		<TcButton Size="218; 68" Location="26; 20" TabIndex="1" Font="Tahoma; 14.25pt; style=Bold" Text="TcButton" ForeColor="RoyalBlue">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcButton>
+		<TcRadioButton Text="TcRadioButton" TabIndex="2" Location="26; 158">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcRadioButton>
+		<TcProgressBar PlcVariableName="Main.Updown" Name="UserControl1" Size="268; 27" Location="26; 246" TabIndex="3">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcProgressBar>
+		<TcSmoothProgressBar Size="268; 20" Name="TcSmoothProgressBar" Location="26; 209" TabIndex="4" PlcVariableName="Main.Updown" ProgressBarColor="Tan">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcSmoothProgressBar>
+		<TextBox Text="sdfsdf&#xD;&#xA;df&#xD;&#xA;sdf&#xD;&#xA;sdffffffff&#xD;&#xA;dddddddddddddddddddf" Location="214; 308" Size="165; 123" Lines="sdfsdf;df;sdf;sdffffffff;dddddddddddddddddddf" TabIndex="6" Multiline="True">
+			<Namespace>System.Windows.Forms</Namespace>
+		</TextBox>
+		<Label Text="sdsdsssssssss&#xD;&#xA;ddddddddddddd&#xD;&#xA;gggggggggggg&#xD;&#xA;ereeeeeeeee&#xD;&#xA;" Size="168; 123" Location="26; 308" TabIndex="5" BackColor="Silver">
+			<Namespace>System.Windows.Forms</Namespace>
+		</Label>
+	</DesignerFrame>
+</TcHmiDesigner>

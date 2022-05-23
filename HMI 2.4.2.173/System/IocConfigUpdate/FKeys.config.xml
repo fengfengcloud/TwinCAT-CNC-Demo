@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>
+  <unity>
+    <alias alias="Object" type="System.Object, mscorlib" />
+    <container>
+
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+             mapTo="Beckhoff.App.Controls.Buttons.BAButtonBarContainer, Beckhoff.App.Controls.Buttons"
+             name="FKeysBottom">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="tokenNoStart" type="int" value="1"/>
+          <param name="eventAggregator"/>
+          <param name="container"/>
+          <param name="KeyCodeStart" type="int" value="112"/>
+          <!--<param name="CaptionKeyStart" type="int" value="1"/>-->
+        </constructor>
+      </register>
+
+
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+             mapTo="Beckhoff.App.Controls.Buttons.BAButtonBarContainer, Beckhoff.App.Controls.Buttons"
+             name="FKeysBottom2">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="tokenNoStart" type="int" value="1"/>
+          <param name="eventAggregator"/>
+          <param name="container"/>
+          <param name="KeyCodeStart" type="int" value="1112"/>
+          <!-- Keycode > 1000 -> SHIFT Key-->
+
+        </constructor>
+      </register>
+
+
+
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+             mapTo="Beckhoff.App.Controls.Buttons.BAButtonBarContainer, Beckhoff.App.Controls.Buttons"
+             name="FKeysLeft">
+        <property name="FKeyDirectionIsVertical" type ="bool" value="true" >
+        </property>
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="tokenNoStart" type="int" value="-299"/>
+          <param name="eventAggregator"/>
+          <param name="container"/>
+          <param name="KeyCodeStart" type="int" value="0"/>
+        </constructor>
+      </register>
+
+
+
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+             mapTo="Beckhoff.App.Controls.Buttons.BAButtonBarContainer, Beckhoff.App.Controls.Buttons"
+             name="FKeysRight">
+        <property name="FKeyDirectionIsVertical" type ="bool" value="true" >
+        </property>
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="tokenNoStart" type="int" value="-199"/>
+          <param name="eventAggregator"/>
+          <param name="container"/>
+          <param name="KeyCodeStart" type="int" value="0"/>
+        </constructor>
+      </register>
+
+    </container>
+  </unity>
+</configuration>

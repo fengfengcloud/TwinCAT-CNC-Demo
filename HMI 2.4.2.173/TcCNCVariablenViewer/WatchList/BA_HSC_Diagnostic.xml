@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<WatchList>
+  <row rowid="0">
+    <id>0</id>
+    <description>Actual velocity on path</description>
+    <type>REAL64</type>
+    <size>8</size>
+    <arraySize>0</arraySize>
+    <IndexGroup>135937</IndexGroup>
+    <IndexOffset>21</IndexOffset>
+    <Port>551</Port>
+    <CNCParameterType>14</CNCParameterType>
+    <Channel>1</Channel>
+    <AxisName>
+    </AxisName>
+    <Value>_</Value>
+  </row>
+  <row rowid="1">
+    <id>0</id>
+    <description>Programmed velocity on path</description>
+    <type>REAL64</type>
+    <size>8</size>
+    <arraySize>0</arraySize>
+    <IndexGroup>135937</IndexGroup>
+    <IndexOffset>22</IndexOffset>
+    <Port>551</Port>
+    <CNCParameterType>14</CNCParameterType>
+    <Channel>1</Channel>
+    <AxisName>
+    </AxisName>
+    <Value>_</Value>
+  </row>
+  <row rowid="2">
+    <id>0</id>
+    <description>Maximum velocity on path</description>
+    <type>UNS32</type>
+    <size>4</size>
+    <arraySize>0</arraySize>
+    <IndexGroup>135937</IndexGroup>
+    <IndexOffset>15</IndexOffset>
+    <Port>551</Port>
+    <CNCParameterType>14</CNCParameterType>
+    <Channel>1</Channel>
+    <AxisName>
+    </AxisName>
+    <Value>_</Value>
+  </row>
+  <row rowid="3">
+    <id>0</id>
+    <description>slope_buf_level</description>
+    <type>UNS32</type>
+    <size>4</size>
+    <arraySize>0</arraySize>
+    <IndexGroup>135937</IndexGroup>
+    <IndexOffset>4</IndexOffset>
+    <Port>551</Port>
+    <CNCParameterType>14</CNCParameterType>
+    <Channel>1</Channel>
+    <AxisName>
+    </AxisName>
+    <Value>_</Value>
+  </row>
+  <row rowid="4">
+    <id>0</id>
+    <description>actual_block_nr</description>
+    <type>SGN32</type>
+    <size>4</size>
+    <arraySize>0</arraySize>
+    <IndexGroup>135937</IndexGroup>
+    <IndexOffset>33</IndexOffset>
+    <Port>551</Port>
+    <CNCParameterType>14</CNCParameterType>
+    <Channel>1</Channel>
+    <AxisName>
+    </AxisName>
+    <Value>_</Value>
+  </row>
+  <row rowid="5">
+    <id>0</id>
+    <description>Limiting axis</description>
+    <type>UNS32</type>
+    <size>4</size>
+    <arraySize>0</arraySize>
+    <IndexGroup>135937</IndexGroup>
+    <IndexOffset>84</IndexOffset>
+    <Port>551</Port>
+    <CNCParameterType>14</CNCParameterType>
+    <Channel>1</Channel>
+    <AxisName>
+    </AxisName>
+    <Value>_</Value>
+  </row>
+  <row rowid="6">
+    <id>0</id>
+    <description>Dynamic limit</description>
+    <type>UNS32</type>
+    <size>4</size>
+    <arraySize>0</arraySize>
+    <IndexGroup>135937</IndexGroup>
+    <IndexOffset>85</IndexOffset>
+    <Port>551</Port>
+    <CNCParameterType>14</CNCParameterType>
+    <Channel>1</Channel>
+    <AxisName>
+    </AxisName>
+    <Value>_</Value>
+  </row>
+</WatchList>

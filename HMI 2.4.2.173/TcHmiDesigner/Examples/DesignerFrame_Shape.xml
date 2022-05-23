@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="424; 496">
+		<FrameName>Frame1</FrameName>
+		<NumElements>6</NumElements>
+		<TcShapeControl Size="193; 79" Shape="RoundedRectangle" Location="34; 354" BorderColor="167; 0; 255; 0" Text="TcShapeControl" TabIndex="1" Font="Arial; 12pt; style=Bold" BackColor="152; 69; 0; 0" CenterColor="100; 255; 125; 0" SurroundColor="100; 0; 255; 255" BorderWidth="5">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcShapeControl>
+		<TcShapeControl Size="313; 172" Shape="Diamond" Location="44; 21" BorderColor="255; 0; 0" Text="TcShapeControl" TabIndex="1" Font="Arial; 12pt; style=Bold" BackColor="232; 232; 88; 0" CenterColor="100; 125; 125; 160" BorderStyle="DashDot" SurroundColor="100; 0; 255; 255">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcShapeControl>
+		<TcShapeControl Size="193; 37" Location="34; 211" BorderColor="255; 0; 0" TabIndex="0" Font="Arial; 12pt; style=Bold" BackColor="Transparent" Text="TcShapeControl" CenterColor="100; 255; 0; 0" SurroundColor="100; 0; 255; 255">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcShapeControl>
+		<TcShapeControl Size="193; 79" Shape="RoundedRectangle" Location="34; 259" BorderColor="167; 0; 255; 0" Text="TcShapeControl" TabIndex="1" Font="Arial; 12pt; style=Bold" BackColor="232; 0; 175; 171" CenterColor="100; 125; 125; 160" SurroundColor="100; 0; 255; 255" BorderWidth="5">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcShapeControl>
+		<TcShapeControl Size="42; 40" Location="29; 19" BorderColor="255; 0; 0" Shape="CustomPolygon" TabIndex="2" Font="Arial; 12pt; style=Bold" BackColor="Yellow" CenterColor="100; 255; 0; 0" SurroundColor="100; 0; 255; 255" BorderWidth="2">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcShapeControl>
+		<TcShapeControl Size="42; 40" Name="Control6" Location="342; 19" BorderColor="255; 0; 0" Shape="CustomPolygon" TabIndex="2" Font="Arial; 12pt; style=Bold" BackColor="Yellow" CenterColor="100; 255; 0; 0" SurroundColor="100; 0; 255; 255" BorderWidth="2">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcShapeControl>
+	</DesignerFrame>
+</TcHmiDesigner>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container>
+        
+            <!-- Dialog-->
+            <register type="Beckhoff.App.Core.Interfaces.IBADialogQuestion, Beckhoff.App.Core.Interfaces" 
+                      mapTo="Beckhoff.App.Essential.Controls.Dialog.BADialogQuestion, Beckhoff.App.Essential.Controls">
+            </register>
+            <!-- DialogVM-->
+            <register type="Beckhoff.App.Core.Interfaces.IBADialogQuestionVM, Beckhoff.App.Core.Interfaces" 
+                      mapTo="Beckhoff.App.Essential.Controls.Dialog.BADialogQuestionVM, Beckhoff.App.Essential.Controls">
+              <constructor>
+                <param name="Caption" >
+                  <value value="Caption"/>
+                </param>
+                <param name="DisplayedText" >
+                  <value value="DisplayedText"/>
+                </param>
+
+              </constructor>
+            </register>
+          
+        </container>
+    </unity>
+</configuration>
+

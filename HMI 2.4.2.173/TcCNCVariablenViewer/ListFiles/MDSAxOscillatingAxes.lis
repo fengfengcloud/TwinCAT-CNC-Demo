@@ -1,0 +1,12 @@
+getriebe[0].lslope_profil.a_stufe_1
+getriebe[0].lslope_profil.a_stufe_2
+getriebe[0].lslope_profil.vb_stufe_1_2
+getriebe[0].slope_profil.a_beschl
+getriebe[0].slope_profil.a_brems
+getriebe[0].slope_profil.tr_beschl_ab
+getriebe[0].slope_profil.tr_beschl_zu
+getriebe[0].slope_profil.tr_brems_ab
+getriebe[0].slope_profil.tr_brems_zu
+#
+Ende
+

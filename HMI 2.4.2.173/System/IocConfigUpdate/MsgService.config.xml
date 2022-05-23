@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+        <container> 
+            <!-- Beckhoff Application MessageService Interface -->
+            <type type="Beckhoff.App.Core.Interfaces.IBAMessageService, Beckhoff.App.Core.Interfaces" mapTo="Beckhoff.App.Core.Common.Services.MessageService.BAMessageService, Beckhoff.App.Core.Common">
+                <lifetime type="singleton" />
+            </type>
+		</container>
+    </unity>
+</configuration>

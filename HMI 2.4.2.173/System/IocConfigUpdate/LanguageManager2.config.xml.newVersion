@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+    <container>
+      <register type="Beckhoff.App.Core.Interfaces.IBALanguage, Beckhoff.App.Core.Interfaces"
+                mapTo="Beckhoff.App.Core.Language2.Language, Beckhoff.App.Core.Language2">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="lcid" value="1033" />
+          <param name="pathToXml" value="\System\Language.xml" />          
+		      <param name="container" />
+          <param name="settings"/>
+        </constructor>
+      </register>
+      <register type="Beckhoff.App.Core.Language2.Interfaces.ILanguageExtended, Beckhoff.App.Core.Language2"
+                mapTo="Beckhoff.App.Core.Language2.LanguageExtended, Beckhoff.App.Core.Language2">
+        <lifetime type="singleton" />
+      </register>
+    </container>
+  </unity>
+</configuration>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>
+  <unity>
+    <alias alias="Object" type="System.Object, mscorlib" />
+    <container>
+      <!-- Definition for Default FKeys (bottom horizontal)-->
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+                mapTo="Beckhoff.App.BAFunctionKeys, Beckhoff.App.Essential.Controls"
+                name="FKeysBottom">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="shift" type="bool" value="false"/>
+          <param name="vertical" type="bool" value="false"/>
+        </constructor>
+      </register>
+
+
+      <!-- Definition for Default FKeys (bottom horizontal 2)-->
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+                mapTo="Beckhoff.App.BAFunctionKeys, Beckhoff.App.Essential.Controls"
+                name="FKeysBottom2">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="shift" type="bool" value="true"/>
+          <param name="vertical" type="bool" value="false"/>
+        </constructor>
+      </register>
+
+
+
+      <!-- Definition for Default FKeysleft ()-->
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+                mapTo="Beckhoff.App.BAFunctionKeys, Beckhoff.App.Essential.Controls"
+                name="FKeysLeft">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="shift" type="bool" value="false"/>
+          <param name="vertical" type="bool" value="true"/>
+        </constructor>
+      </register>
+
+
+      <!-- Definition for Default FKeysRight ()-->
+      <register type="Beckhoff.App.Core.Interfaces.IBAFunctionKeys, Beckhoff.App.Core.Interfaces"
+                mapTo="Beckhoff.App.BAFunctionKeys, Beckhoff.App.Essential.Controls"
+                name="FKeysRight">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="shift" type="bool" value="false"/>
+          <param name="vertical" type="bool" value="true"/>
+        </constructor>
+      </register>
+
+
+
+    </container>
+  </unity>
+</configuration>

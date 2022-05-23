@@ -1,0 +1,6 @@
+pAC[axis_idx]^.addr^.StateLR_Data.W_DriveType;UINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_ReadyPowerOn;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_ReadyControlLoopOn;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_Error;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.W_NativeDriveState;UINT;0
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+        <container> 
+          <!-- Beckhoff Application Settings -->
+          <type type="Beckhoff.App.Core.Interfaces.IBASettings, Beckhoff.App.Core.Interfaces" mapTo="Beckhoff.App.Settings.BASettings, Beckhoff.App.Settings.BASettings">
+            <lifetime type="singleton">
+            </lifetime>
+              <constructor>
+                <param name="fileName" parameterType="string" value="System\GeneralSettings.xml"/>
+                <param name ="container"></param>
+                <param name ="eventAgg"></param>
+                <param name ="logger"></param>
+              </constructor>
+          </type>	           
+        </container>
+    </unity>
+</configuration>

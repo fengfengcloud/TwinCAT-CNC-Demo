@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <alias alias="singleton" type="Microsoft.Practices.Unity.ContainerControlledLifetimeManager, Microsoft.Practices.Unity" />
+    <container>
+      <register type="Beckhoff.App.Core.Interfaces.IBAHeader, Beckhoff.App.Core.Interfaces"
+                mapTo="Beckhoff.App.Header.HeaderCtrl, Beckhoff.App.Header">
+        <lifetime type="singleton" />
+      </register>
+
+    </container>
+  </unity>
+</configuration>

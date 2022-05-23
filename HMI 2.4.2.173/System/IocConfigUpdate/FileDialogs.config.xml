@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container>
+        
+            <!-- FileOpenDialog-->
+            <register type="Beckhoff.App.Core.Interfaces.IBAOpenFileDialog, Beckhoff.App.Core.Interfaces" 
+                      mapTo="Beckhoff.App.BAOpenFileDialog, Beckhoff.App.Essential.Controls">
+            </register>
+            <!-- FileSaveDialog-->
+            <register type="Beckhoff.App.Core.Interfaces.IBASaveFileDialog, Beckhoff.App.Core.Interfaces" 
+                      mapTo="Beckhoff.App.BASaveFileDialog, Beckhoff.App.Essential.Controls">
+            </register>
+          
+        </container>
+    </unity>
+</configuration>

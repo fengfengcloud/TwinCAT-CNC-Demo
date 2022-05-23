@@ -1,0 +1,13 @@
+kenngr.achs_mode
+kenngr.gantry_ax_nr
+kenngr.gantry_max_diff_resetable
+kenngr.gantry_max_diff_reset_locked
+kenngr.gantry_offset
+kenngr.gantry_vb_korr
+kenngr.gantry_diff_check_without_homing
+kenngr.gantry_synchronous_slave_homing
+kenngr.cnc_controlled_stop_after_error
+		
+#
+Ende
+

@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container> 
+
+
+     <!-- Technodata Channel 1-->
+		<register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh1">
+				<property name="DataContext" >
+					<dependency type="Object" name="TechnoDataVmCh1" />
+				</property>
+        </register>                         									
+						
+		<register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh1">
+			<lifetime type="singleton" />
+      <constructor>
+        <param name="iocContainer" />
+        <param name="channelNo" >
+          <value value="1"/>
+        </param>
+        <param name="instanceName" >
+          <value value="TechnoDataCh1"/>
+        </param>
+      </constructor>
+		</register>
+
+     <!-- Technodata Channel 2-->
+        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh2">
+				<property name="DataContext" >
+					<dependency type="Object" name="TechnoDataVmCh2" />
+				</property>
+        </register>                         									
+					
+		<register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh2">
+			<lifetime type="singleton" />
+			<constructor>
+				<param name="iocContainer" />					
+				<param name="channelNo" >
+					<value value="2"/>
+				</param>
+				<param name="instanceName" >
+					<value value="TechnoDataCh2"/>
+				</param>
+			</constructor>
+		</register>
+
+          <!-- Technodata Channel 3-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh3">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh3" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh3">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="3"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh3"/>
+              </param>
+            </constructor>
+          </register>
+
+          <!-- Technodata Channel 4-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh4">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh4" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh4">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="4"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh4"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Technodata Channel 5-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh5">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh5" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh5">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="5"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh5"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		  <!-- Technodata Channel 6-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh6">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh6" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh6">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="6"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh6"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Technodata Channel 7-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh7">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh7" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh7">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="7"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh7"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 8-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh8">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh8" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh8">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="8"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh8"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 9-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh9">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh9" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh9">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="9"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh9"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		   <!-- Technodata Channel 10-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh10">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh10" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh10">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="10"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh10"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 11-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh11">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh11" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh11">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="11"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh11"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 12-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh12">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh12" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh12">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="12"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh12"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 13-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh13">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh13" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh13">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="13"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh13"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 14-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh14">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh14" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh14">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="14"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh14"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 15-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh15">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh15" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh15">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="15"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh15"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Technodata Channel 16-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.WPFTechnoDataCnc, Beckhoff.App.CNC-WPF" name="TechnoDataControlCh16">
+            <property name="DataContext" >
+              <dependency type="Object" name="TechnoDataVmCh16" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTechnoData.TechnoDataVM, Beckhoff.App.CNC-WPF" name="TechnoDataVmCh16">
+            <lifetime type="singleton" /> 
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="16"/>
+              </param>
+              <param name="instanceName" >
+                <value value="TechnoDataCh16"/>
+              </param>
+            </constructor>
+          </register>
+		  
+        </container>
+    </unity>
+</configuration>

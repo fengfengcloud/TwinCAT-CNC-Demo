@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container> 
+          
+             <!-- Stop Condition Channel 1-->
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh1">
+				        <property name="DataContext" >
+					        <dependency type="Object" name="StopConditionVmCh1" />
+				        </property>
+                </register>                         									
+						
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh1">			        
+              <constructor>
+                <param name="iocContainer" />
+                <param name="channelNo" >
+                  <value value="1"/>
+                </param>
+                <param name="instanceName" >
+                  <value value="StopConditionCh1"/>
+                </param>
+              </constructor>
+		        </register>
+
+
+          <!-- Stop Condition Channel 2-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh2">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh2" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh2">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="2"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh2"/>
+              </param>
+            </constructor>
+          </register>
+
+
+          <!-- Stop Condition Channel 3-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh3">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh3" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh3">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="3"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh3"/>
+              </param>
+            </constructor>
+          </register>
+
+
+          <!-- Stop Condition Channel 4-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh4">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh4" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh4">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="4"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh4"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Stop Condition Channel 5-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh5">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh5" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh5">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="5"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh5"/>
+              </param>
+            </constructor>
+          </register>
+		  
+
+		<!-- Stop Condition Channel 6-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh6">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh6" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh6">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="6"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh6"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Stop Condition Channel 7-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh7">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh7" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh7">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="7"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh7"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 8-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh8">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh8" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh8">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="8"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh8"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 9-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh9">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh9" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh9">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="9"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh9"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 10-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh10">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh10" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh10">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="10"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh10"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 11-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh11">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh11" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh11">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="11"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh11"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 12-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh12">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh12" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh12">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="12"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh12"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 13-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh13">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh13" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh13">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="13"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh13"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 14-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh14">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh14" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh14">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="14"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh14"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 15-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh15">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh15" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh15">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="15"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh15"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- Stop Condition Channel 16-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFStopCondition, Beckhoff.App.CNC-WPF" name="StopConditionCh16">
+            <property name="DataContext" >
+              <dependency type="Object" name="StopConditionVmCh16" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.StopConditionVM, Beckhoff.App.CNC-WPF" name="StopConditionVmCh16">            
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="16"/>
+              </param>
+              <param name="instanceName" >
+                <value value="StopConditionCh16"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		  
+		  
+		  
+
+		  
+        </container>
+    </unity>
+</configuration>

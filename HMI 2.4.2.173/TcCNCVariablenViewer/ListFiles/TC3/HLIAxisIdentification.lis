@@ -1,0 +1,4 @@
+gpAx[axis_idx]^.lr_state.log_name_r.zeichen;STRING;19
+gpAx[axis_idx]^.ipo_state.log_achs_nr_r;UINT;0
+gpAx[axis_idx]^.ipo_state.spindle_axis_r;BOOL;0
+gpAx[axis_idx]^.lr_state.cnc_channel_r;UINT;0

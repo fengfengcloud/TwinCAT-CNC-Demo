@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="619; 463">
+		<FrameName>Frame1</FrameName>
+		<NumElements>5</NumElements>
+		<AdvancedLevel Name="Control1" Minimum="-100" TabIndex="0" PlcVariableName="SINEDEMO.Y_VALUE" Size="90; 281" Text="AdvancedLevel" Orientation="Vertical" Location="21; 36">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedLevel>
+		<AdvancedLevel Minimum="-100" Name="Control1" Labels="Low;Medium;High" TabIndex="0" PlcVariableName="SINEDEMO.Y_VALUE" Size="126; 281" Text="AdvancedLevel" Orientation="Vertical" Location="159; 36">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedLevel>
+		<AdvancedLevel Location="362; 36" Name="Control1" TicksSubDivisionsCount="0" Minimum="-100" TabIndex="0" Size="64; 281" Text="AdvancedLevel" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUE" TicksPosition="Internal" LabelsPosition="BottomRight">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedLevel>
+		<ProgressBar Name="Control4" Location="21; 374" TabIndex="1" Size="536; 28" Text="ProgressBar" PlcVariableName="SINEDEMO.Y_VALUEabs" EndColor="LightBlue">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</ProgressBar>
+		<LevelBar Name="Control5" Minimum="-100" TabIndex="2" PlcVariableName="SINEDEMO.Y_VALUE" Size="24; 281" Text="LevelBar" Location="524; 36">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</LevelBar>
+	</DesignerFrame>
+</TcHmiDesigner>

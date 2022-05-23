@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container>
+          <!-- Tabulator Conainer Ch1 -->
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh1">            
+			          <property name="DataContext" >
+  					        <dependency type="Object" name="TabContainerVM1" />
+				        </property>
+            </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM1">
+            <property name="TabText">
+              <value value="tab"></value>              
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh1"/>
+            </property>
+            <property name ="ElementArray">
+              <array>                                
+                <dependency name="BlockSearchCh1"/>
+                <dependency name="SyntaxCheckCh1"/>
+                <dependency name="TeachInCh1"/>
+                <dependency name="StopConditionCh1"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh1"/>
+              </array>
+            </property>
+          </register>
+		  
+          <!-- Tabulator Conainer Ch2 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh2">
+            <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM2" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM2">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh2"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh2"/>
+                <dependency name="SyntaxCheckCh2"/>
+                <dependency name="TeachInCh2"/>
+                <dependency name="StopConditionCh2"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh2"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch3 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh3">
+            <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM3" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM3">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh3"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+               <dependency name="BlockSearchCh3"/>
+                <dependency name="SyntaxCheckCh3"/>
+                <dependency name="TeachInCh3"/>
+                <dependency name="StopConditionCh3"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh3"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch4 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh4">
+            <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM4" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM4">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh4"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh4"/>
+                <dependency name="SyntaxCheckCh4"/>
+                <dependency name="TeachInCh4"/>
+                <dependency name="StopConditionCh4"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh4"/>
+              </array>
+            </property>
+          </register>
+		  
+		  
+		  <!-- Tabulator Conainer Ch5 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh5">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM5" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM5">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh5"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh5"/>
+                <dependency name="SyntaxCheckCh5"/>
+                <dependency name="TeachInCh5"/>
+                <dependency name="StopConditionCh5"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh5"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch6 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh6">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM6" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM6">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh6"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh6"/>
+                <dependency name="SyntaxCheckCh6"/>
+                <dependency name="TeachInCh6"/>
+                <dependency name="StopConditionCh6"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh6"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch7 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh7">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM7" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM7">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh7"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh7"/>
+                <dependency name="SyntaxCheckCh7"/>
+                <dependency name="TeachInCh7"/>
+                <dependency name="StopConditionCh7"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh7"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch8 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh8">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM8" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM8">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh8"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh8"/>
+                <dependency name="SyntaxCheckCh8"/>
+                <dependency name="TeachInCh8"/>
+                <dependency name="StopConditionCh8"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh8"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch9 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh9">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM9" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM9">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh9"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+               <dependency name="BlockSearchCh9"/>
+                <dependency name="SyntaxCheckCh9"/>
+                <dependency name="TeachInCh9"/>
+                <dependency name="StopConditionCh9"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh9"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch10 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh10">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM10" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM10">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh10"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh10"/>
+                <dependency name="SyntaxCheckCh10"/>
+                <dependency name="TeachInCh10"/>
+                <dependency name="StopConditionCh10"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh10"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch11 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh11">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM11" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM11">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh11"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh11"/>
+                <dependency name="SyntaxCheckCh11"/>
+                <dependency name="TeachInCh11"/>
+                <dependency name="StopConditionCh11"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh11"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch12 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh12">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM12" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM12">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh12"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh12"/>
+                <dependency name="SyntaxCheckCh12"/>
+                <dependency name="TeachInCh12"/>
+                <dependency name="StopConditionCh12"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh12"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch13 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh13">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM13" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM13">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh13"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh13"/>
+                <dependency name="SyntaxCheckCh13"/>
+                <dependency name="TeachInCh13"/>
+                <dependency name="StopConditionCh13"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh13"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch14 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh14">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM14" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM14">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh14"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+               <dependency name="BlockSearchCh14"/>
+                <dependency name="SyntaxCheckCh14"/>
+                <dependency name="TeachInCh14"/>
+                <dependency name="StopConditionCh14"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh14"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch15 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh15">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM15" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM15">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh15"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh15"/>
+                <dependency name="SyntaxCheckCh15"/>
+                <dependency name="TeachInCh15"/>
+                <dependency name="StopConditionCh15"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh15"/>
+              </array>
+            </property>
+          </register>
+		  
+		  <!-- Tabulator Conainer Ch16 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerCh16">
+		  <property name="DataContext" >
+              <dependency type="Object" name="TabContainerVM16" />
+            </property>
+          </register>
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerVM16">
+            <property name="TabText">
+              <value value="tab"></value>
+            </property>
+            <property name="InstanceName">
+              <value value="TabContainerCh16"/>
+            </property>
+            <property name ="ElementArray">
+              <array>
+                <dependency name="BlockSearchCh16"/>
+                <dependency name="SyntaxCheckCh16"/>
+                <dependency name="TeachInCh16"/>
+                <dependency name="StopConditionCh16"/>
+                <dependency name="VariableView"/>
+                <dependency name="HSCDiagCh16"/>
+              </array>
+            </property>
+          </register>
+		  
+        </container>
+    </unity>
+</configuration>

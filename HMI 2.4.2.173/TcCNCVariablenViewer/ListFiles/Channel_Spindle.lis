@@ -1,0 +1,106 @@
+spdl_anzahl                                           0
+
+main_spindle_ax_nr                                    0
+main_spindle_name                                     0
+main_spindle_gear_change                              0
+spindle_m_fct_free                                    0
+#
+spindel[0].bezeichnung                                0
+spindel[0].log_achs_nr                                0
+spindel[0].plc_control                                0            
+spindel[0].s_synch                                    0
+spindel[0].m3_synch                                   0
+spindel[0].m4_synch                                   0
+spindel[0].m5_synch                                   0
+spindel[0].m19_synch                                  0
+spindel[0].s_prozess_zeit                             0
+spindel[0].m3_prozess_zeit                            0
+spindel[0].m4_prozess_zeit                            0
+spindel[0].m5_prozess_zeit                            0
+spindel[0].m19_prozess_zeit                           0
+#
+spindel[1].bezeichnung                                0
+spindel[1].log_achs_nr                                0
+spindel[1].plc_control                                0            
+spindel[1].s_synch                                    0
+spindel[1].m3_synch                                   0
+spindel[1].m4_synch                                   0
+spindel[1].m5_synch                                   0
+spindel[1].m19_synch                                  0
+spindel[1].s_prozess_zeit                             0
+spindel[1].m3_prozess_zeit                            0
+spindel[1].m4_prozess_zeit                            0
+spindel[1].m5_prozess_zeit                            0
+spindel[1].m19_prozess_zeit                           0
+#
+spindel[2].bezeichnung                                0
+spindel[2].log_achs_nr                                0
+spindel[2].plc_control                                0            
+spindel[2].s_synch                                    0
+spindel[2].m3_synch                                   0
+spindel[2].m4_synch                                   0
+spindel[2].m5_synch                                   0
+spindel[2].m19_synch                                  0
+spindel[2].s_prozess_zeit                             0
+spindel[2].m3_prozess_zeit                            0
+spindel[2].m4_prozess_zeit                            0
+spindel[2].m5_prozess_zeit                            0
+spindel[2].m19_prozess_zeit                           0
+#
+spindel[3].bezeichnung                                0
+spindel[3].log_achs_nr                                0
+spindel[3].plc_control                                0            
+spindel[3].s_synch                                    0
+spindel[3].m3_synch                                   0
+spindel[3].m4_synch                                   0
+spindel[3].m5_synch                                   0
+spindel[3].m19_synch                                  0
+spindel[3].s_prozess_zeit                             0
+spindel[3].m3_prozess_zeit                            0
+spindel[3].m4_prozess_zeit                            0
+spindel[3].m5_prozess_zeit                            0
+spindel[3].m19_prozess_zeit                           0
+#
+spindel[4].bezeichnung                                0
+spindel[4].log_achs_nr                                0
+spindel[4].plc_control                                0            
+spindel[4].s_synch                                    0
+spindel[4].m3_synch                                   0
+spindel[4].m4_synch                                   0
+spindel[4].m5_synch                                   0
+spindel[4].m19_synch                                  0
+spindel[4].s_prozess_zeit                             0
+spindel[4].m3_prozess_zeit                            0
+spindel[4].m4_prozess_zeit                            0
+spindel[4].m5_prozess_zeit                            0
+spindel[4].m19_prozess_zeit                           0
+#
+spindel[5].bezeichnung                                0
+spindel[5].log_achs_nr                                0
+spindel[5].plc_control                                0            
+spindel[5].s_synch                                    0
+spindel[5].m3_synch                                   0
+spindel[5].m4_synch                                   0
+spindel[5].m5_synch                                   0
+spindel[5].m19_synch                                  0
+spindel[5].s_prozess_zeit                             0
+spindel[5].m3_prozess_zeit                            0
+spindel[5].m4_prozess_zeit                            0
+spindel[5].m5_prozess_zeit                            0
+spindel[5].m19_prozess_zeit                           0
+#
+spindel[6].bezeichnung                                0
+spindel[6].log_achs_nr                                0
+spindel[6].plc_control                                0            
+spindel[6].s_synch                                    0
+spindel[6].m3_synch                                   0
+spindel[6].m4_synch                                   0
+spindel[6].m5_synch                                   0
+spindel[6].m19_synch                                  0
+spindel[6].s_prozess_zeit                             0
+spindel[6].m3_prozess_zeit                            0
+spindel[6].m4_prozess_zeit                            0
+spindel[6].m5_prozess_zeit                            0
+spindel[6].m19_prozess_zeit                           0
+Ende
+

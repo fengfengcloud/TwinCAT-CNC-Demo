@@ -1,0 +1,102 @@
+;---------------------------------------------------------------------------------
+; Standard user wordlist
+; Extends the TwinCAT CNC standard wordlist
+; Version: 1.0
+;"Language generated:" "English"
+;---------------------------------------------------------------------------------
+;/L20"TwinCAT CNC" Nocase Line Comment = ; File Extensions = ISO NC CNC
+;/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,
+;/Function String = "_N_+^(*^)+_?PF"
+
+;---------------------------------------------------------------------------------
+; Control Block Statements ($..)
+/C1"KeywordList1"
+;"$MKTEST" "Test"
+
+;---------------------------------------------------------------------------------
+; Additional Functions (#..)
+/C2"KeywordList2"
+"#FILE NAME[G85=\"cycle_test.nc\"]" "Call of global sub program with parameters"
+
+;---------------------------------------------------------------------------------
+; G-Functions (G..)
+/C3"KeywordList3"
+"G80" "Implicite subprogram call"
+"G81" "Implicite subprogram call"
+"G82" "Implicite subprogram call"
+"G83" "Implicite subprogram call"
+"G84" "Implicite subprogram call"
+"G85" "Implicite subprogram call"
+"G86" "Implicite subprogram call"
+"G87" "Implicite subprogram call"
+"G88" "Implicite subprogram call"
+"G89" "Implicite subprogram call"
+"G800" "Additional implicite subprogram call"
+"G801" "Additional implicite subprogram call"
+"G802" "Additional implicite subprogram call"
+"G803" "Additional implicite subprogram call"
+"G804" "Additional implicite subprogram call"
+"G805" "Additional implicite subprogram call"
+"G806" "Additional implicite subprogram call"
+"G807" "Additional implicite subprogram call"
+"G808" "Additional implicite subprogram call"
+"G809" "Additional implicite subprogram call"
+"G810" "Additional implicite subprogram call"
+"G811" "Additional implicite subprogram call"
+"G812" "Additional implicite subprogram call"
+"G813" "Additional implicite subprogram call"
+"G814" "Additional implicite subprogram call"
+"G815" "Additional implicite subprogram call"
+"G816" "Additional implicite subprogram call"
+"G817" "Additional implicite subprogram call"
+"G818" "Additional implicite subprogram call"
+"G819" "Additional implicite subprogram call"
+
+;---------------------------------------------------------------------------------
+; M/H-Functions (M../H..)
+/C4"KeywordList4"
+"M41" "Machine function 41"
+"M42" "Machine function 42"
+"M43" "Machine function 43"
+"M44" "Machine function 44"
+"H41" "Auxiliary function H41"
+"H42" "Auxiliary function H42"
+"H43" "Auxiliary function H43"
+"H44" "Auxiliary function H44"
+
+;---------------------------------------------------------------------------------
+; Reserved Keyword List
+/C5"KeywordList5"
+"L CYCLE [NAME=drilling.cyc @P1=100 @P2=80 @P3=5 @P4=20 @P6=1 @P10=30]" "Zentrierbohrung absolut"
+"L CYCLE [NAME=drilling.cyc @P1=100 @P2=80 @P3=5 @P5=40 @P10=30]" "Zentrierbohrung relativ"
+"L CYCLE [NAME=pocketmill.cyc @P1=100 @P2=80 @P3=5 @P5=10 @P6=60 @P7=130 @P8=25 @P9=50 @P10=-5 @P11=2 @P12=0.5 @P13=2 @P14=3 @P15=30 @P16=40]" "Schruppen+Schlichten"
+"L CYCLE [NAME=cnc_meas_corner.ecy @P1=-10 @P2=-20 @P3=-3 @P4=2 @P5=8 @P6=10 @P7=4 @P8=1 @P9=1000 @P10=50 @P11=135]" "Vermessen einer Werkstueckecke"
+"L CYCLE [NAME=cnc_meas_bolt_pocket.ecy @P1=1 @P2=20 @P4=10 @P5=1 @P8=1000 @P9=100 @P10=10 @P11=2]" "Vermessen einer Nut"
+"L CYCLE [NAME=cnc_meas_bolt_pocket.ecy @P1=1 @P2=20 @P4=10 @P5=1 @P8=1000 @P9=100 @P10=10 @P11=3]" "Vermessen eines Stegs"
+"L CYCLE [NAME=cnc_meas_bolt_pocket.ecy @P1=1 @P2=20 @P3=3 @P4=10 @P5=1 @P6=1 @P8=1000 @P9=100 @P10=10 @P11=0]" "Vermessen einer Rechtecktasche"
+
+
+;---------------------------------------------------------------------------------
+; Mathematical Expressions
+/C6"KeywordList6"
+;"MOD" "Function"
+;"ABS" "Function"
+"CYCLE" "Cycle call"
+
+;---------------------------------------------------------------------------------
+; Variables Programming (V.)
+/C7"KeywordList7"
+;"V.A." "Axis-specific variables"
+;"V.SPDL." "Spindle-specific variables"
+;"V.G." "Global variables"
+;"V.P." "Self-defined variables, program global"
+;"V.S." "Self-defined variables, global"
+;"V.L." "Self-defined variables, program local"
+;"V.E." "External variables"
+;"V.TOOL." "Tool identification variables"
+;"V.TLM." "Tool life variables"
+"V.E.VARIABLE_1" "External variable 1"
+"V.E.VARIABLE_2" "External variable 2"
+"V.E.VARIABLE_3" "External variable 3"
+"V.E.VARIABLE_4" "External variable 4"
+"V.E.VARIABLE_5" "External variable 5"

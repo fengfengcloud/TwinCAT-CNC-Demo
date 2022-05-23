@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container>
+
+          <!-- Blocksearch Channel 1-->
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh1">            
+			          <property name="DataContext" >
+  					        <dependency type="Object" name="BlockSearchVm1" />
+				        </property>
+            </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm1">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="1"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh1"/>
+              </param>
+            </constructor>
+          </register>
+
+
+          <!-- Blocksearch Channel 2-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh2">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm2" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm2">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="2"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh2"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		   <!-- Blocksearch Channel 3-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh3">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm3" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm3">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="3"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh3"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 4-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh4">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm4" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm4">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="4"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh4"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		   <!-- Blocksearch Channel 5-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh5">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm5" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm5">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="5"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh5"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 6-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh6">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm6" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm6">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="6"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh6"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 7-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh7">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm7" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm7">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="7"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh7"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 8-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh8">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm8" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm8">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="8"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh8"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 9-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh9">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm9" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm9">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="9"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh9"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 10-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh10">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm10" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm10">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="10"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh10"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 11-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh11">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm11" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm11">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="11"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh11"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 12-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh12">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm12" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm12">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="12"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh12"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 13-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh13">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm13" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm13">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="13"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh13"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 14-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh14">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm14" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm14">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="14"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh14"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 15-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh15">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm15" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm15">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="15"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh15"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Blocksearch Channel 16-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFBlockSearch, Beckhoff.App.CNC-WPF" name="BlockSearchCh16">
+            <property name="DataContext" >
+              <dependency type="Object" name="BlockSearchVm16" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.BlockSearchVm, Beckhoff.App.CNC-WPF" name="BlockSearchVm16">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="16"/>
+              </param>
+              <param name="instanceName" >
+                <value value="BlockSearchCh16"/>
+              </param>
+            </constructor>
+          </register>
+
+        </container>
+    </unity>
+</configuration>

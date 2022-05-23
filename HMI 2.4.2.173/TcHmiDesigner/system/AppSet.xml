@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<profile>
+  <section name="ModuleName.General">
+    <entry name="WindowStateMaximized">If true, the application is maximized.|Startup|True||System.Boolean|</entry>
+    <entry name="NetId">The default net id of the target system. Remove for local use.|ADS|local||System.String|</entry>
+    <entry name="PortNr">The default PLC port number of the target system.|ADS|851||System.String|</entry>
+  </section>
+</profile>

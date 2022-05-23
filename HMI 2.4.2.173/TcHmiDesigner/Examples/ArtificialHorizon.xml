@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+    <DesignerFrame Size="424; 496">
+        <FrameName>Frame1</FrameName>
+        <NumElements>2</NumElements>
+        <TcArtificialHorizon TabIndex="0" Location="12; 58" Capture="False" BorderColor="Black" PlcVariableName="Main.Angle" PlcVariableNameAngle="Main.Angle" PlcVariableNameSlope="Main.Slope" Text="TcArtificialHorizon" BorderWidth="5" AutoScaleMode="Font" AutoScaleDimensions="6; 13" SegmentColor1="RoyalBlue" SegmentColor2="83; 55; 18" Size="379; 379" CycleTime="45" ClientSize="379; 379" IsAccessible="False">
+            <Namespace>Beckhoff.Forms</Namespace>
+        </TcArtificialHorizon>
+        <TcSystemState BackColor="57; 85; 148" Location="4; 4" Capture="False" IsAccessible="False" AutoScaleDimensions="0; 0" Text="TcSystemState" AutoScaleMode="Inherit" Name="TcSystemState" TabIndex="1" Size="134; 32" ClientSize="134; 32">
+            <Namespace>Beckhoff.Forms</Namespace>
+        </TcSystemState>
+    </DesignerFrame>
+</TcHmiDesigner>

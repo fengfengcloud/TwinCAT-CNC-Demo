@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container> 
+          
+             <!-- Axis State -->
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFAxisState, Beckhoff.App.CNC-WPF" name="AxisState">
+				        <property name="DataContext" >
+					        <dependency type="Object" name="AxisStateVm" />
+				        </property>
+                </register>                         									
+						
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.AxisStateVM, Beckhoff.App.CNC-WPF" name="AxisStateVm">
+			        <lifetime type="singleton" />
+              <constructor>
+                <param name="instanceName" >
+                  <value value="AxisState"/>
+                </param>                                
+                <param name="language" />
+                <param name="eventAgg" />
+                <param name="adsServer" />
+                <param name="logger" />
+                <param name="settings" />
+                <param name="userAdmin" />
+              </constructor>
+		        </register>
+
+        </container>
+    </unity>
+</configuration>

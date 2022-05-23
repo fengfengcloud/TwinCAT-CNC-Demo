@@ -1,0 +1,16 @@
+kenngr.hub_messtaster
+kenngr.mess_neg_flanke
+kenngr.mess_offset
+kenngr.mess_signal_achs_steuer
+kenngr.mess_signal_sercos
+kenngr.mess_signal_taster
+kenngr.messachse
+kenngr.vb_messen
+kenngr.echtzeit_bit_nr Nummer
+kenngr.probing_signal_via_plc
+kenngr.meas_signal_fixed_stop
+kenngr.fixed_stop_pos_lag_limit
+kenngr.fixed_stop_nbr_cycles
+#
+Ende
+

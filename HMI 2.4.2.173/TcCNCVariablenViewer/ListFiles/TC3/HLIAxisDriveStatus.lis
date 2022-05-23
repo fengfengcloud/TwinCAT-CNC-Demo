@@ -1,0 +1,6 @@
+gpAx[axis_idx]^.lr_state.drive_type_r;UINT;0
+gpAx[axis_idx]^.lr_state.ready_for_power_on_r;BOOL;0
+gpAx[axis_idx]^.lr_state.ready_for_control_loop_on_r;BOOL;0
+gpAx[axis_idx]^.lr_state.error_r;BOOL;0
+gpAx[axis_idx]^.lr_state.native_drive_state_r;UINT;0
+

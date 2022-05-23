@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<configuration>
+  <configSections>
+    <section name="unity"
+             type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>
+  <unity>
+    <alias alias="Object" type="System.Object, mscorlib" />
+    <container>
+
+      <!-- VariableView Channel 1 -->
+      <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFVariableView, Beckhoff.App.CNC-WPF" name="VariableView">
+         <!--<lifetime type="singleton" />-->
+        <property name="DataContext">
+          <dependency type="Object" name="VariableViewVm1" />
+        </property>
+      </register>
+
+      <register type="Object" mapTo="Beckhoff.App.CNC_WPF.VariableViewVM, Beckhoff.App.CNC-WPF" name="VariableViewVm1">
+        <constructor>
+          <param name="iocContainer" />
+          <param name="instanceName">
+          <value value="VariableView" />
+          </param>
+        </constructor>
+      </register>
+
+    </container>
+  </unity>
+</configuration>

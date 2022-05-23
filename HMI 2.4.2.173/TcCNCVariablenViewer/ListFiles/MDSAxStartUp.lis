@@ -1,0 +1,17 @@
+kenngr.achs_mode
+kenngr.achs_typ
+kenngr.getriebe_stufe
+getriebe[0].wegaufz
+getriebe[0].wegaufn
+getriebe[0].kv
+getriebe[0].multi_gain_z
+getriebe[0].multi_gain_n
+getriebe[0].moduloo
+getriebe[0].modulou
+getriebe[0].modulo_fehler
+getriebe[0].modulo_umdreh
+lr_hw[0].vz_stellgr
+lr_hw[0].vz_istw
+#
+Ende
+

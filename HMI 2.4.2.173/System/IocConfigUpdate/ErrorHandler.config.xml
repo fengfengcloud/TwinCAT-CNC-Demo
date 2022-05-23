@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+        <container> 
+            <!-- Beckhoff Application ErrorHandler Interface -->
+            <type type="Beckhoff.App.Core.Interfaces.IBAErrorHandler, Beckhoff.App.Core.Interfaces" mapTo="Beckhoff.App.Core.Interfaces.ConsoleErrorHandler, Beckhoff.App.Core.Interfaces">
+                <lifetime type="singleton" />
+                <constructor>
+                    <param name="prefix" type="string" value="[Error]-app.config" />
+                </constructor>
+            </type>             
+        </container>
+    </unity>
+</configuration>

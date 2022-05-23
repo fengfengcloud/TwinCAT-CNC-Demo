@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="619; 545">
+		<FrameName>Frame1</FrameName>
+		<NumElements>12</NumElements>
+		<AdvancedTank Size="115; 230" Location="17; 6" Name="Control1" BarWidth="30" TabIndex="0" IndicatorWidth="35" Text="AdvancedTank" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUEABS" BarIndent="25">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedTank>
+		<AdvancedTank Depth="15" IndicatorWidth="145" Size="185; 230" LabelsCount="4" PlcVariableName="SINEDEMO.Y_VALUEABS" Name="Control1" Text="AdvancedTank" BarWidth="140" LabelsPosition="BottomRight" TicksCount="4" BarIndent="70" Location="157; 6" TabIndex="0" TicksPosition="BottomRight" Orientation="Vertical" LiquidColor="OrangeRed">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedTank>
+		<AdvancedTank Size="78; 230" Location="368; 6" Name="Control1" LiquidColor="MediumSpringGreen" LabelsPosition="None" TabIndex="0" IndicatorWidth="35" Text="AdvancedTank" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUEABS" TicksPosition="None" BarIndent="25" BarWidth="40">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedTank>
+		<AdvancedTank Size="120; 230" Location="472; 6" Name="Control1" LiquidColor="Yellow" LabelsPosition="BottomRight" TabIndex="0" IndicatorWidth="35" Text="AdvancedTank" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUEABS" BarIndent="25" BarWidth="30" Labels="Low;Normal;High">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedTank>
+		<AdvancedThermometer Size="192; 84" Name="Control5" Location="5; 254" TabIndex="1" Text="AdvancedThermometer" PlcVariableName="SINEDEMO.Y_VALUEABS">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedThermometer>
+		<AdvancedThermometer Name="Control5" Location="5; 342" TabIndex="1" Size="192; 52" Text="AdvancedThermometer" TicksSubDivisionsCount="2" PlcVariableName="SINEDEMO.Y_VALUEABS" TicksPosition="Internal">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedThermometer>
+		<AdvancedThermometer Name="Control5" Location="5; 399" TabIndex="1" Size="192; 31" Text="AdvancedThermometer" TicksSubDivisionsCount="2" PlcVariableName="SINEDEMO.Y_VALUEABS" TicksPosition="None" LabelsPosition="None">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedThermometer>
+		<AdvancedThermometer Name="Control5" TicksSubDivisionsCount="2" Location="5; 433" TabIndex="1" Size="192; 52" Text="AdvancedThermometer" LabelsPosition="Internal" PlcVariableName="SINEDEMO.Y_VALUEABS" BarWidth="20">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedThermometer>
+		<AdvancedThermometer IndicatorWidth="25" Size="49; 227" LabelsCount="6" Maximum="150" PlcVariableName="SINEDEMO.Y_VALUE" Location="227; 255" Text="AdvancedThermometer" Minimum="-150" BarWidth="20" LabelsPosition="Internal" TicksLenght="2" Name="Control5" TabIndex="1" TicksCount="6" Orientation="Vertical" TicksSubDivisionsCount="4">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedThermometer>
+		<AdvancedThermometer IndicatorWidth="25" Size="88; 227" LabelsCount="6" Maximum="150" PlcVariableName="SINEDEMO.Y_VALUE" Location="292; 255" Text="AdvancedThermometer" Minimum="-150" BarWidth="20" TicksLenght="2" Name="Control5" TabIndex="1" TicksCount="6" Orientation="Vertical" TicksSubDivisionsCount="4">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedThermometer>
+		<AdvancedThermometer IndicatorWidth="25" Size="89; 227" LabelsCount="6" Maximum="150" Labels="Cold;Normal;Hot" Location="391; 255" Text="AdvancedThermometer" Minimum="-150" BarWidth="20" LabelsPosition="TopLeft" Name="Control5" TabIndex="1" PlcVariableName="SINEDEMO.Y_VALUE" Orientation="Vertical" LiquidColor="Brown" TicksSubDivisionsCount="4">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedThermometer>
+		<Thermometer Size="80; 227" Name="Control12" Location="495; 255" TabIndex="2" Text="Thermometer" PlcVariableName="SINEDEMO.Y_VALUEABS">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</Thermometer>
+	</DesignerFrame>
+</TcHmiDesigner>

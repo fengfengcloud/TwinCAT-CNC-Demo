@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="688; 534">
+		<FrameName>Frame1</FrameName>
+		<NumElements>11</NumElements>
+		<AdvancedSlider Name="Control1" Location="12; 16" TabIndex="0" Size="302; 76" SliderSize="20; 20" PlcVariableName="SINEDEMO.Y_VALUEABS" Text="AdvancedSlider">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedSlider>
+		<Slider Name="Control2" Location="12; 98" TabIndex="1" Size="302; 64" Text="Slider" PlcVariableName="SINEDEMO.Y_VALUEABS">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</Slider>
+		<LevelSlider Name="Control3" Location="12; 186" TabIndex="2" Size="302; 32" Text="LevelSlider" Orientation="Horizontal" PlcVariableName="SINEDEMO.Y_VALUEABS">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</LevelSlider>
+		<AdvancedSlider Name="Control1" Location="346; 18" TabIndex="0" InactiveBarColor="PaleTurquoise" Size="290; 76" SliderSize="15; 30" PlcVariableName="SINEDEMO.Y_VALUEABS" ActiveBarColor="CornflowerBlue" Text="AdvancedSlider">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedSlider>
+		<AdvancedSlider Text="AdvancedSlider" Name="Control1" Location="346; 98" TabIndex="0" InactiveBarColor="WhiteSmoke" Size="290; 76" SliderStyle="Value" SliderSize="30; 20" PlcVariableName="SINEDEMO.Y_VALUEABS" ActiveBarColor="255; 192; 128" BarIndent="17">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedSlider>
+		<AdvancedSlider Size="290; 65" Location="346; 184" Name="Control1" BarWidth="25" TabIndex="0" InactiveBarColor="WhiteSmoke" LabelsPosition="None" SliderStyle="Value" SliderSize="30; 20" IndicatorWidth="25" PlcVariableName="SINEDEMO.Y_VALUEABS" ActiveBarColor="SteelBlue" BarIndent="17" Text="AdvancedSlider">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedSlider>
+		<AdvancedSlider Name="Control1" Location="15; 255" TabIndex="0" InactiveBarColor="Sienna" Size="93; 232" SliderSize="20; 20" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUEABS" ActiveBarColor="Yellow" Text="AdvancedSlider">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedSlider>
+		<AdvancedSlider Size="79; 232" Location="129; 255" Name="Control1" BarWidth="14" TabIndex="0" InactiveBarColor="AliceBlue" Orientation="Vertical" SliderStyle="Value" SliderSize="20; 20" LabelsPosition="BottomRight" PlcVariableName="SINEDEMO.Y_VALUEABS" ActiveBarColor="Blue" Text="AdvancedSlider" Labels="Bottom;Middle;Top">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedSlider>
+		<AdvancedSlider Size="93; 232" TicksPosition="Internal" Name="Control1" BarWidth="30" TabIndex="0" InactiveBarColor="White" IndicatorWidth="36" SliderStyle="Value" Location="220; 255" SliderSize="30; 20" Orientation="Vertical" PlcVariableName="SINEDEMO.Y_VALUEABS" ActiveBarColor="MediumSpringGreen" Text="AdvancedSlider">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</AdvancedSlider>
+		<RotarySlider Size="65; 102" Name="Control10" Location="362; 347" TabIndex="3" Text="RotarySlider" PlcVariableName="SINEDEMO.Y_VALUEABS">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</RotarySlider>
+		<RotarySlider Name="Control10" Location="459; 347" TabIndex="3" Size="65; 102" Text="RotarySlider" PlcVariableName="SINEDEMO.Y_VALUEABS" BackColor="NavajoWhite">
+			<Namespace>Beckhoff.Forms.Widgets</Namespace>
+		</RotarySlider>
+	</DesignerFrame>
+</TcHmiDesigner>

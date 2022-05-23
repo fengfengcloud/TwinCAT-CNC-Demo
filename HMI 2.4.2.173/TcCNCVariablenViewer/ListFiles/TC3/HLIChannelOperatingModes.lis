@@ -1,0 +1,7 @@
+gpCh[channel_idx]^.channel_mc_control.mode_and_state.state_r.mode;UDINT;0
+gpCh[channel_idx]^.channel_mc_control.mode_and_state.state_r.state;UDINT;0
+gpCh[channel_idx]^.channel_mc_control.mode_and_state.enable_w;BOOL;0
+gpCh[channel_idx]^.channel_mc_control.mode_and_state.command_w.to_mode;UDINT;0;<HLI_IMCM_STANDBY_MODE><HLI_IMCM_AUTOMATIC_MODE><HLI_IMCM_MDI_MODE><HLI_IMCM_MANUAL_MODE><HLI_IMCM_REFERENCE_MODE>
+gpCh[channel_idx]^.channel_mc_control.mode_and_state.command_w.to_state;UDINT;0;<HLI_IMCM_PROCESS_DESELECTED><HLI_IMCM_PROCESS_SELECTED><HLI_IMCM_PROCESS_READY><HLI_IMCM_PROCESS_ACTIVE><HLI_IMCM_PROCESS_HOLD><HLI_IMCM_PROCESS_ERROR> 
+gpCh[channel_idx]^.channel_mc_control.mode_and_state.command_w.parameter;STRING;299
+gpCh[channel_idx]^.channel_mc_control.mode_and_state.command_semaphor_rw;BOOL;0

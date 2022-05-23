@@ -1,0 +1,2 @@
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].cmd_position_r;DINT
+

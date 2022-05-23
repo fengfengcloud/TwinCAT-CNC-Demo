@@ -1,0 +1,12 @@
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].cmd_position_r;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].act_position_r;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].current_position_r;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].man_offset_r;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].total_offset_r;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].hb_display_r.state;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].hb_display_r.operation_mode;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].hb_display_r.control_element;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].hb_display_r.hr_aufloesung;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].hb_display_r.tipp_geschw;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].hb_display_r.jog_geschw;DINT;0
+gpCh[channel_idx]^.bahn_state.coord_r[axis_idx].hb_display_r.jog_weg;DINT;0

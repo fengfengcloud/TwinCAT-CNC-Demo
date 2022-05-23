@@ -1,0 +1,282 @@
+Software License Agreement for Beckhoff Software Products
+
+ß 1	Subject Matter of This Agreement
+(1)	LICENSOR grants CUSTOMER a non-transferable, non-exclusive right
+to use the data processing applications specified in Appendix 1 hereto
+(hereinafter called "SOFTWARE") under the conditions specified hereinafter.
+(2)	The SOFTWARE shall be delivered to CUSTOMER on machine-readable
+recording media as specified in Appendix 1, on which it is recorded as
+an object program in an executable status. One user documentation shall
+be part of the application and it shall be made available to CUSTOMER in
+printed form, alternatively on a machine-readable recording medium or
+online. The form the user documentation is delivered in is specified
+in Appendix 1. The SOFTWARE and the documentation are hereinafter
+called "LICENSE MATERIALS".
+(3)	Data (files, data base materials) recorded on the machine readable
+recording media which is part of the software mentioned in Appendix 1,
+or which is mentioned there instead of such software, shall fall under
+the LICENSE MATERIALS.
+(4)	The LICENSE MATERIALS shall also include new editions or
+supplements to the LICENSE MATERIALS, which LICENSOR shall let CUSTOMER
+have during the life of the agreement, and that is ordinarily not free
+of charge.
+
+ß 2	Authorization of Usage
+(1)	CUSTOMER acknowledges that LICENSOR is the sole owner of all
+rights in the SOFTWARE described in Appendix 1 and in all of the
+know-how pertaining to this SOFTWARE. It shall forbear to attack those
+rights. It will adequately inform third parties of Licensorís ownership
+of those rights.
+(2)	CUSTOMER shall only be granted a limited right of usage to the
+extent to which it is absolutely necessary for the purposes of this
+AGREEMENT. The provisions following hereunder are characterizations
+of this principle and shall be narrowly construed in cases of doubt.
+Licensorís copyright of the SOFTWARE shall not be exhausted by this
+AGREEMENT.
+
+ß 3 	Scope of Usage
+(1)	CUSTOMER may use the delivered software on the central data
+processing unit identified in Appendix 1. 
+(2)	"Usage" includes storing (copying) of the software and the
+data in whole or in part in the identified data processing unit,
+executing the applications, processing of the data and making additional
+copies of these materials in machine-readable form to the extent
+necessary for their use under this AGREEMENT. The right of use in
+units connected to the central data processing unit identified in
+Appendix 1 (e.g. input devices or output devices) shall be limited
+to transferring, storing and displaying the software, the data or
+parts of these materials.
+(3)	If, under Appendix 1, the user documentation is also delivered
+on a machine-readable medium, subparagraph (2) shall also be applicable
+for such documentation.
+(4)	If the central data processing unit identified in Appendix 1
+is temporarily out of order CUSTOMER may use the software and the
+data on another central data processing unit.
+(5)	LICENSE MATERIALS delivered in printed form shall only be
+copied upon Licensorís written consent. Additional copies of such
+printed LICENSE MATERIALS may be bought from LICENSOR for a fee
+to be paid.
+(6)	The usage under this AGREEMENT shall include the making
+of backup copies of the delivered software, and also observing,
+examining and testing of the software while it is being run,
+stored and transferred, or displayed on the monitor screen.
+(7)	CUSTOMER may connect the delivered software to other
+software (facilitating interoperability). The user documentation
+shall contain a description of the interfaces provided for this
+purpose. Otherwise, CUSTOMER shall not modify, translate, or
+otherwise edit and transform the software. Neither shall CUSTOMER
+retranslate the software into the form of source programs or
+other modes of presentation. Any retranslation of program parts
+for making an independently developed DP program interoperable with
+other software shall be subject to the applicable legal provisions.
+(8)	CUSTOMER shall not transfer the privileges mentioned
+herein to third parties or grant any rights of usage to third
+parties. In case such transfer of privileges to third party,
+is agreed upon between the parties, Licensee agrees to hold
+harmless and indemnify Licensor from any and all claims such
+third party may raise against Licensor.
+
+ß 4	Protection of LICENSE MATERIALS
+(1)	Notwithstanding the rights of usage granted under paragraphs
+1, 2, and 3, LICENSOR shall keep all rights of the LICENSE MATERIALS,
+and that includes any copies or partial copies made by CUSTOMER. The
+foregoing shall not affect Customerís property of the machine-readable
+recording media, memory devices, and data processing devices.
+(2)	CUSTOMER shall leave any notices of industrial property rights,
+such as copyright notices and other reservations of rights unchanged,
+and it shall adopt such notices without change into any copies made
+by CUSTOMER of machine readable LICENSE MATERIALS in whole or in part.
+In case and as far as the licensed material includes source code,
+licensee shall keep such source code confidential, particularly in
+regards to publishing.
+(3)	CUSTOMER shall keep separate books of the copies or partial
+copies of machine readable LICENSE MATERIALS made under this AGREEMENT
+and to keep them at a safe place and to provide information about this
+subject upon request.
+(4)	CUSTOMER shall neither make the LICENSE MATERIALS available
+to third parties in original, nor as complete or partial copies,
+without Licensorís express written consent. The same shall apply in
+the case of complete or partial sale or dissolution of Customerís
+business enterprise. Customerís employees or other persons shall not
+be considered to be third parties while they stay with CUSTOMER in
+order to make use of the LICENSE MATERIALS as provided under this
+AGREEMENT.
+(5)	CUSTOMER shall completely delete any LICENSE MATERIALS stored
+in machine-readable recording media, or memory devices, or data
+processing devices before such media or devices are destroyed, sold,
+or otherwise passed on elsewhere.
+(6)	CUSTOMER may either use a new version of the LICENSE
+MATERIALS delivered to it, or it may waive making such use.
+
+ß 5	Delivery
+(1)	CUSTOMER shall receive a delivery copy of the SOFTWARE and
+of the user documentation on a machine-readable recording medium as
+shown in Appendix 1 and one copy of the user documentation. Should
+Appendix 1 show that the latter shall also be delivered on a
+machine-readable recording device, such machine-readable recording
+device may be the same the delivery copy is recorded on.
+(2)	If the recording medium containing the SOFTWARE is damaged
+or deleted by mistake during shipment or after its receipt by CUSTOMER,
+LICENSOR shall deliver a replacement on charging the delivery costs and
+the costs of the recording device to CUSTOMER.
+
+ß 6	Royalties
+(1)	The royalties shall be defined in Appendix 1 as a non-recurrent
+royalty. For particular new versions and supplements of the license
+program an additional royalty shall be charged as shown in Appendix 1
+if applicable.
+(2)	Such royalties shall be payable subsequent to the delivery
+of the software to CUSTOMER. Any royalties shall be due for payment no
+later than 10 days without any discount. The VAT and sales tax, if any,
+shall be charged separately.
+
+ß 7	Warranty
+(1)	The parties agree that it is not possible to develop software
+thus that it meets all the requirements of the application without error.
+LICENSOR shall make available a user documentation explaining the
+intended use and the using conditions of the SOFTWARE, which shall always
+be kept up to date.
+(2)	LICENSOR warrants CUSTOMER the fitness of the delivered version
+of the SOFTWARE for its use as provided under this AGREEMENT and as per
+the user documentation effective upon dispatch of the SOFTWARE. This
+shall particularly apply to any guarantees which can only be contained
+in the user documentation and which must be marked and highlighted as
+such; in case of doubt there shall be no guaranty. 
+(3)	In case of a significant deviation from the user documentation
+LICENSOR shall have the right and, unless this requires unreasonable
+expenditure, the duty, to remedy such deviation by repair. If LICENSOR
+does not succeed in eliminating such significant deviations from the
+user documentation within a period of time of reasonable length or to
+avoid such deviations in a manner allowing CUSTOMER a usage of the
+program as provided under this AGREEMENT, CUSTOMER may demand a
+reduction of the royalties or, if the software is useless for CUSTOMER,
+it may cancel the license for the software without notice for a refund
+of the paid non-recurrent royalty, only.
+(4)	CUSTOMER shall make verifiable documents concerning the kind
+and the occurrence of such deviations of the software and its
+performance available to LICENSOR, and it shall cooperate in the
+localization of defects.
+(5)	This warranty shall not extend to defects caused by userís
+deviation from the conditions intended for the use of the SOFTWARE
+and explained in the user documentation.
+(6)	The warranty period shall lapse no later than 1 year after
+the delivery of the SOFTWARE to CUSTOMER. This warranty is
+exclusive of any warranty claims other than the ones mentioned
+under this ß 7 and ß8.
+
+ß 8	Limitation of Liability
+(1)	LICENSOR shall at all times be liable to CUSTOMER for damages
+that are caused intentionally or through gross negligence by licensor
+itself or its agents, or for any lack of conformity with any guaranty
+or product description.
+(2)	LICENSOR shall not be liable beyond the bounds set forth under
+subparagraph (1), except for insufficient quality of the software through
+Licensorís own fault or through the fault of its agents, but only if
+essential functions of the supplied software are affected by such
+insufficient quality of the software, and for any other breach or
+nonperformance of duties essential for the performance of this agreement
+through Licensorís own fault or through the fault of its agents.
+(3)	If, by way of simple negligence, LICENSOR or its agents breach
+the duties set forth under subparagraph (2), LICENSOR shall only be
+liable to compensate those damages that were foreseeable for LICENSOR
+when the particular transactions were made. CUSTOMER shall point out
+to LICENSOR in writing any special risks, any atypical possibilities of
+sustaining damages and any extraordinary amounts of damages that may be
+sustained. LICENSOR shall, however, be exempt from any liability for
+consequential damages, for lack of economic success, for indirect
+damages, and for damages resulting from claims of third parties,
+particularly those damages caused by software used to compose or
+create other software. In addition, Licensorís liability shall by
+its amount be limited to EUR 50.000, - in each particular case of
+damage resulting from personal injury and to EUR 5.000, - in each
+particular case of damage to property; in any other case Licensorís
+liability shall be limited to the six fold of the royalty for the
+respective delivery copy. Those royalties effective when the damages
+claim arises shall be applicable, exclusive of VAT and sales tax, if
+any. LICENSOR shall only be liable for the recovery of data if
+CUSTOMER has secured the possibility of reproducing such data at
+reasonable expenditure and in accordance with the principles of
+proper data processing from data provided in machine-readable form.
+(4) 	The same limitations of licensor's liability as set forth under
+the foregoing subparagraph (3) shall apply to any culpable breach of
+duties under this agreement committed by ordinary agents.
+(5) 	Licensor's liability under the Product Liability Act
+shall remain unaffected by the foregoing provisions.
+
+ß 9	Intellectual Property Rights of Third Parties
+(1)	It is in Licensorís sole discretion to decide if it defends
+CUSTOMER against claims made for an infringement of an intellectual
+property right or copyright caused by the SOFTWARE while used as per
+this AGREEMENT. CUSTOMER shall notify LICENSOR without delay of the
+making of any such claims. If LICENSOR does not defend CUSTOMER,
+CUSTOMER shall be free to defend itself. LICENSOR shall assist
+CUSTOMER in doing so just as well as CUSTOMER is under an obligation
+to assist LICENSOR.
+(2)	If claims under subparagraph 1 have been asserted against
+CUSTOMER, or if such assertions of claims must be expected, LICENSOR
+may modify or replace the SOFTWARE at its own expense as far as this
+is reasonable for CUSTOMER. Each party to this AGREEMENT may cancel the
+license without notice if such modification or replacement cannot be
+accomplished at a reasonable expenditure, or if a right of use cannot
+be obtained at a reasonable expenditure. This notwithstanding, the
+provisions made under ß 8 for the limitation of Licensorís liability
+shall be applicable correspondingly.
+
+ß 10	Conditions of Usage
+(1)	The LICENSE MATERIALS delivered to CUSTOMER have been developed
+for being used in specific data processing units and for the interaction
+with specific other software. These conditions of usage are set forth
+in the performance description.
+(2)	If the LICENSE MATERIALS are used in a manner not complying
+with the conditions of usage under subparagraph (1) LICENSOR shall be
+discharged from his warranty obligation under ßß 7, 8 and 9.
+
+ß 11	Termination, Return and Deletion of LICENSE MATERIALS
+(1)	CUSTOMER may cancel each license for a particular software, 
+or this AGREEMENT as a whole, by giving one month's notice hereof to 
+LICENSOR.
+(2)	This AGREEMENT is subject to cancellation without notice by
+either party for good cause (îwichtiger Grundî); in particular, but
+not limited thereto, in case of a breach of ß 2 "Authorization of
+Use", ß 3 "Scope of Use" and ß 4 "Protection of LICENSE MATERIALS".
+(3)	As soon as a notice takes effect, regardless of its time and
+reason, CUSTOMER shall return to LICENSOR the original and all copies
+and partial copies of the LICENSE MATERIALS. As far as software which
+is recorded on machine-readable recording media is concerned, such
+software shall be completely deleted in lieu of being returned.
+(4)	If CUSTOMER replaces a cancelled software or prior version
+of software by a successor application offered by LICENSOR it may
+keep the canceled (prior) software for up to three months as a
+standby reserve. Any retention of an archival storage copy shall
+be subject to a written agreement.
+
+ß 12	Statute of Limitations, Miscellaneous
+(1)	Any claims made for a breach of ß 2 "Authorization of Use",
+ß 3 "Scope of Use" and ß 4 "Protection of LICENSE MATERIALS" shall
+expire no later than six (6) years after their accrual, any other
+claims from this AGREEMENT shall expire no later than three (3) years
+after their accrual, unless shorter terms are applicable under the
+statute of limitations.
+(2)	Any modification of or supplement of this AGREEMENT shall
+only be valid if made in writing.
+(3)	The parties agree that any disputes arising from this
+AGREEMENT shall come under the exclusive jurisdiction of the courts
+of competent jurisdiction over Verl, Germany. LICENSOR reserves its
+right, however, to file suit against CUSTOMER with the court of
+competent jurisdiction over Customerís commercial domicile.
+(4)	The agreement and all of itís provisions shall be governed
+by the law of Germany.
+
+
+
+Beckhoff Automation GmbH
+Eiserstraﬂe 5
+D-33415 Verl
+Telefon +49 5246/963-0
+Telefax +49 5246/963-149
+http://www.beckhoff.com
+
+
+
+(c) for the agreement text: Beckhoff Automation GmbH
+(r) The name "Beckhoff" is a registered trademark

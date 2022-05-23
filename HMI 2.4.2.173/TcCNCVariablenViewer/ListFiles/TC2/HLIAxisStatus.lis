@@ -1,0 +1,17 @@
+pAC[axis_idx]^.addr^.StateLR_Data.W_AxisState;UINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_HomingDone;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.D_FollowingError;DINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_InWindow;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_InPosition;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_IsMoved;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_IsMoving;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_IsMovingForward;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_ControlLoopEnabled;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.D_BlockNr;DINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.W_LinkToLogicalAxis;UINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.X_CyclicDriveDataOk;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.D_AxisMode;UDINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.W_GantryMasterNr;UINT;0
+pAC[axis_idx]^.addr^.StateIPO_Data.X_LinkToPhysicalAxis;UINT;0
+pAC[axis_idx]^.addr^.StateIPO_Data.W_AxLinkMode;INT;0
+pAC[axis_idx]^.addr^.StateIPO_Data.W_AxLinkMasterAxNr;UINT;0

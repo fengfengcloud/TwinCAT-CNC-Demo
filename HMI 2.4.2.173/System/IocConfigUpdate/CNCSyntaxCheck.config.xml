@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container>
+
+          <!-- Syntax Check Channel 1-->
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh1">            
+			          <property name="DataContext" >
+  					        <dependency type="Object" name="SyntaxCheckVm1" />
+				        </property> 
+            </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm1">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="1"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh1"/>
+              </param>
+            </constructor>
+          </register>
+          
+          <!-- Syntax Check Channel 2-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh2">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm2" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm2">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="2"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh2"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		  <!-- Syntax Check Channel 3-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh3">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm3" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm3">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="3"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh3"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		  <!-- Syntax Check Channel 4-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh4">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm4" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm4">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="4"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh4"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		  <!-- Syntax Check Channel 5-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh5">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm5" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm5">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="5"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh5"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  
+		  <!-- Syntax Check Channel 6-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh6">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm6" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm6">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="6"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh6"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 7-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh7">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm7" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm7">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="7"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh7"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- Syntax Check Channel 8-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh8">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm8" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm8">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="8"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh8"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 9-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh9">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm9" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm9">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="9"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh9"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 10 -->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh10">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm10" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm10">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="10"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh10"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 11-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh11">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm11" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm11">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="11"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh11"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 12-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh12">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm12" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm12">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="12"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh12"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 13-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh13">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm13" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm13">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="13"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh13"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 14-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh14">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm14" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm14">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="14"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh14"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 15-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh15">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm15" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm15">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="15"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh15"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- Syntax Check Channel 16-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSyntaxCheck, Beckhoff.App.CNC-WPF" name="SyntaxCheckCh16">
+            <property name="DataContext" >
+              <dependency type="Object" name="SyntaxCheckVm16" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.SyntaxCheckVM, Beckhoff.App.CNC-WPF" name="SyntaxCheckVm16">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="16"/>
+              </param>
+              <param name="instanceName" >
+                <value value="SyntaxCheckCh16"/>
+              </param>
+            </constructor>
+          </register>
+		  
+        </container>		
+    </unity>
+</configuration>

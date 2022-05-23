@@ -1,0 +1,14 @@
+getriebe[0].lose
+lr_param.n_backlash_cyc
+lr_param.crosscomp
+lr_param.crosscomp2
+lr_param.anwahl_losekomp
+lr_param.ssfk
+lr_param.temp_comp
+lr_param.temp_comp_position_0
+lr_param.temp_comp_offset_0
+lr_param.temp_comp_coefficient
+lr_param.temp_comp_n_cycles
+#
+Ende
+

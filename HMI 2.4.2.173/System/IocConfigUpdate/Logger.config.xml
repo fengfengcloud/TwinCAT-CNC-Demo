@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+        <container> 
+            <!-- Beckhoff Application Interface Logger -->
+            <register type="Beckhoff.App.Core.Interfaces.IBALogger, Beckhoff.App.Core.Interfaces" mapTo="Beckhoff.App.Core.Logging.BALog4Net, Beckhoff.App.Core.Logging.Log4Net">
+                <lifetime type="singleton" />
+                <constructor>
+                    <param name="log4NetXmlConfigFile" type="string" value="system\log.xml" />
+                </constructor>
+            </register>                  
+        </container>
+    </unity>
+</configuration>

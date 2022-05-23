@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--edited with TcHmiDesigner (http://www.beckhoff.com) by M. Köster (BECKHOFF Automation GmbH)-->
+<TcHmiDesigner>
+	<DesignerFrame Size="424; 496">
+		<FrameName>Frame1</FrameName>
+		<NumElements>4</NumElements>
+		<TcGauge Location="20; 183" Text="TcGauge" CapsText=";;;;" Size="205; 180" RangesInnerRadius="70,70,70,70,70" RangesStartValue="-100,300,0,0,0" RangesEndValue="300,400,0,0,0" MaxValue="400" CapPosition="10; 10" Range_Idx="0" Center="100; 100" NeedleColor1="Gray" Name="Control3" TabIndex="2" Cap_Idx="1" RangeEndValue="300" RangeStartValue="-100" RangesOuterRadius="80,80,80,80,80" MinValue="-100" ScaleLinesInterInnerRadius="73">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcGauge>
+		<TcComboBox Name="Control2" Location="20; 127" TabIndex="1" Size="125; 21" Text="TcComboBox">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcComboBox>
+		<TcButton Text="TcButton" Name="Control1" TabIndex="0" Location="20; 85">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcButton>
+		<TcSystemState Size="198; 32" Name="Control4" TabIndex="3" Location="20; 32" BackColor="57; 85; 148">
+			<Namespace>Beckhoff.Forms</Namespace>
+		</TcSystemState>
+	</DesignerFrame>
+</TcHmiDesigner>

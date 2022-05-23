@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container>
+
+          <!-- HSC Diag Channel 1-->
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh1">            
+			          <property name="DataContext" >
+  					        <dependency type="Object" name="HSCDiagVm1" />
+				        </property> 
+            </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm1">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="1"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh1"/>
+              </param>
+            </constructor>
+          </register>
+          
+           <!-- HSC Diag Channel 2-->
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh2">            
+			          <property name="DataContext" >
+  					        <dependency type="Object" name="HSCDiagVm2" />
+				        </property> 
+            </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm2">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="2"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh2"/>
+              </param>
+            </constructor>
+          </register>
+
+          <!-- HSC Diag Channel 3-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh3">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm3" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm3">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="3"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh3"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		  <!-- HSC Diag Channel 4-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh4">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm4" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm4">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="4"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh4"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- HSC Diag Channel 5-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh5">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm5" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm5">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="5"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh5"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		    <!-- HSC Diag Channel 6-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh6">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm6" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm6">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="6"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh6"/>
+              </param>
+            </constructor>
+          </register>
+
+		  
+		  <!-- HSC Diag Channel 7-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh7">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm7" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm7">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="7"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh7"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 8-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh8">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm8" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm8">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="8"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh8"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 9-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh9">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm9" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm9">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="9"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh9"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 10-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh10">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm10" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm10">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="10"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh10"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 11-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh11">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm11" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm11">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="11"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh11"/>
+              </param>
+            </constructor>
+          </register>
+
+		   <!-- HSC Diag Channel 12-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh12">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm12" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm12">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="12"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh12"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 13-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh13">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm13" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm13">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="13"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh13"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 14-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh14">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm14" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm14">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="14"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh14"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 15-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh15">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm15" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm15">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="15"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh15"/>
+              </param>
+            </constructor>
+          </register>
+		  
+		   <!-- HSC Diag Channel 16-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFHscDiag, Beckhoff.App.CNC-WPF" name="HSCDiagCh16">
+            <property name="DataContext" >
+              <dependency type="Object" name="HSCDiagVm16" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.HSCDiagVM, Beckhoff.App.CNC-WPF" name="HSCDiagVm16">
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="16"/>
+              </param>
+              <param name="instanceName" >
+                <value value="HSCDiagCh16"/>
+              </param>
+            </constructor>
+          </register>
+		  
+        </container>
+    </unity>
+</configuration>

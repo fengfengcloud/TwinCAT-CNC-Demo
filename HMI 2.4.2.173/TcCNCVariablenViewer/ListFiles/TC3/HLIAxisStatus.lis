@@ -1,0 +1,16 @@
+gpAx[axis_idx]^.lr_state.axis_state_r;UINT;0
+gpAx[axis_idx]^.lr_state.homing_done_r;BOOL;0
+gpAx[axis_idx]^.lr_state.following_error_r;DINT;0
+gpAx[axis_idx]^.lr_state.in_window_r;BOOL;0
+gpAx[axis_idx]^.lr_state.in_position_r;BOOL;0
+gpAx[axis_idx]^.lr_state.is_moved_r;BOOL;0
+gpAx[axis_idx]^.lr_state.is_moving_r;BOOL;0
+gpAx[axis_idx]^.lr_state.is_moving_forward_r;BOOL;0
+gpAx[axis_idx]^.lr_state.control_loop_enabled_r;BOOL;0
+gpAx[axis_idx]^.lr_state.block_nr_r;DINT;0
+gpAx[axis_idx]^.lr_state.link_to_ipo_r;UNS16;0
+gpAx[axis_idx]^.lr_state.cyclic_drive_data_ok_r;BOOL;0
+gpAx[axis_idx]^.ipo_state.link_to_lr_r;UNS16;0
+gpAx[axis_idx]^.ipo_state.axis_link_mode_r;INT;0
+gpAx[axis_idx]^.ipo_state.ax_link_master_ax_nr_r;UNS16;0
+gpAx[axis_idx]^.ipo_state.type_r;UINT;0

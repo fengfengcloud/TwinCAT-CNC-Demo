@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+    <container> 
+          
+             <!-- KeyPad-->
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFKeyPad, Beckhoff.App.CNC-WPF" name="KeyPad1">
+		          <property name="DataContext" >
+		            <dependency type="Object" name="KeyPad1VM" />
+		          </property>
+            </register>                         									
+						
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.KeyPadVM, Beckhoff.App.CNC-WPF" name="KeyPad1VM">			        
+            <constructor>
+                <param name="iocContainer" />
+                <param name="instanceName" >
+                  <value value="KeyPad1"/>
+                </param>
+            </constructor> 
+		        </register>
+		  
+    </container>
+    </unity>
+</configuration>

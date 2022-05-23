@@ -1,0 +1,5 @@
+gpAx[axis_idx]^.lr_state.end_position_acs_r;DINT;0
+gpAx[axis_idx]^.lr_state.active_position_acs_r;DINT;0
+gpAx[axis_idx]^.lr_state.current_position_acs_r;DINT;0
+gpAx[axis_idx]^.lr_state.position_offset_r;DINT;0
+

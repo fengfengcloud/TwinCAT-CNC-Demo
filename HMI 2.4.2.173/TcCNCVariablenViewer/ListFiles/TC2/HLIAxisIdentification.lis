@@ -1,0 +1,6 @@
+pAC[axis_idx]^.addr^.StateIpo_Data.W_LogAxeNr;UINT;0
+pAC[axis_idx]^.addr^.StateIpo_Data.X_SpindleAxis;BOOL;0
+pAC[axis_idx]^.addr^.StateLR_Data.W_NCChannel;UINT;0
+pAC[axis_idx]^.addr^.StateIpo_Data.W_Type;UINT;0
+
+

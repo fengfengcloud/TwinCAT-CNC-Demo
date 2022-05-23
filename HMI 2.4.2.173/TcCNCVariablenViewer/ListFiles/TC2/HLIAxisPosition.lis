@@ -1,0 +1,5 @@
+pAC[axis_idx]^.addr^.StateLR_Data.D_EndPositionACS;DINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.D_CurrentPositionACS;DINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.D_ActivePositionACS;DINT;0
+pAC[axis_idx]^.addr^.StateLR_Data.D_PositionOffsetPhysicalLogicalACS;DINT;0
+

@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container>
+
+
+        
+            <!-- Tabulator container for spindles-->
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFTabContainer, Beckhoff.App.CNC-WPF" name="TabContainerSpindles">
+              <property name="DataContext" >
+                <dependency type="Object" name="TabContainerSpindlesVM" />
+              </property>
+            </register>
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.TabContainerVM, Beckhoff.App.CNC-WPF" name="TabContainerSpindlesVM">
+              <property name="TabText">
+                <value value="Spindle"></value>
+              </property>
+              <property name ="ElementArray">
+                <array>
+                  <dependency name="SpindleControlS1"/>
+                  <dependency name="SpindleControlS2"/>
+                </array>
+              </property>
+            </register>
+       
+
+
+          <!-- Spindle Channel 1-->
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS1">
+				          <property name="DataContext" >
+					        <dependency type="Object" name="SpindleVm1" />
+				        </property>
+            </register>               
+			
+          
+            <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm1">
+                <lifetime type="singleton" />
+                <constructor>
+					        <param name="iocContainer" />
+                  <param name="channelNo" >
+						          <value value="1"/>
+					        </param>
+					        <param name="instanceName" >
+						          <value value="Spindle1Ch1"/>
+					        </param>
+					        <param name="spindleNo" >
+						          <value value="1"/>
+					        </param>
+                </constructor>
+            </register>
+
+          <!-- Spindle Channel 2-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS2">
+            <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm2" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm2">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="1"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch2"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="2"/>
+              </param>
+            </constructor>
+          </register>
+
+          <!-- Spindle Channel 3-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS3">
+            <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm3" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm3">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="3"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch3"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="3"/>
+              </param>
+            </constructor>
+          </register>
+
+          <!-- Spindle Channel 4-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS4">
+            <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm4" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm4">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="4"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch4"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="4"/>
+              </param>
+            </constructor>
+          </register>   
+
+<!-- Spindle Channel 5-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS5">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm5" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm5">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="5"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch5"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="5"/>
+              </param>
+            </constructor>
+          </register>      
+		  
+		  <!-- Spindle Channel 6-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS6">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm6" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm6">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="6"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch6"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="6"/>
+              </param>
+            </constructor>
+          </register>      
+		  
+		    <!-- Spindle Channel 7-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS7">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm7" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm7">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="7"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch7"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="7"/>
+              </param>
+            </constructor>
+          </register>      		  
+          
+		   <!-- Spindle Channel 8-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS8">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm8" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm8">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="8"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch8"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="8"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		   <!-- Spindle Channel 9-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS9">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm9" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm9">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="9"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch9"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="9"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		   <!-- Spindle Channel 10-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS10">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm10" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm10">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="10"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch10"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="10"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		   <!-- Spindle Channel 11-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS11">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm11" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm11">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="11"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch11"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="11"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		<!-- Spindle Channel 12-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS12">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm12" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm12">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="12"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch12"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="12"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		   <!-- Spindle Channel 13-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS13">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm13" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm13">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="13"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch13"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="13"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		   <!-- Spindle Channel 14-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS14">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm14" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm14">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="14"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch14"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="14"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		   <!-- Spindle Channel 15-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS15">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm15" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm15">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="15"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch15"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="15"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+		   <!-- Spindle Channel 16-->
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.WPFSpindleCnc, Beckhoff.App.CNC-WPF" name="SpindleControlS16">
+		  <property name="DataContext" >
+              <dependency type="Object" name="SpindleVm16" />
+            </property>
+          </register>
+
+          <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFSpindle.SpindleVM, Beckhoff.App.CNC-WPF" name="SpindleVm16">
+            <lifetime type="singleton" />
+            <constructor>
+              <param name="iocContainer" />
+              <param name="channelNo" >
+                <value value="16"/>
+              </param>
+              <param name="instanceName" >
+                <value value="Spindle1Ch16"/>
+              </param>
+              <param name="spindleNo" >
+                <value value="16"/>
+              </param>
+            </constructor>
+          </register>      	
+		  
+        </container>
+    </unity>
+</configuration>

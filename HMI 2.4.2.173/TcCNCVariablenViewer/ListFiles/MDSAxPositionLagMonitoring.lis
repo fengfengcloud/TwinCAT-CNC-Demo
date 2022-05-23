@@ -1,0 +1,9 @@
+getriebe[0].slep_dyn
+getriebe[0].slep_max
+getriebe[0].slep_min
+getriebe[0].slep_time_const
+getriebe[0].slep_ueberw_typ
+lr_param.suppress_pos_lag_error
+#
+Ende
+

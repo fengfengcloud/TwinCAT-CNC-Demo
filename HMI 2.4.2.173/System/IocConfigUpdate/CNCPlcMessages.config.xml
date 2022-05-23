@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+		<alias alias="Object" type="System.Object, mscorlib" />
+        <container> 
+          
+             <!-- PLC Messages-->
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.WPFPlcMessages, Beckhoff.App.CNC-WPF" name="PLCMessages">
+		          <property name="DataContext" >
+		            <dependency type="Object" name="PLCMessagesVM" />
+		          </property>
+            </register>                         									
+						
+		        <register type="Object" mapTo="Beckhoff.App.CNC_WPF.PLCMessagesVM, Beckhoff.App.CNC-WPF" name="PLCMessagesVM">			        
+<!--              <constructor>
+                <param name="iocContainer" />
+                <param name="channelNo" >
+                  <value value="1"/>
+                </param>
+                <param name="instanceName" >
+                  <value value="StopConditionCh1"/>
+                </param>
+              </constructor> -->
+		        </register>
+		  
+        </container>
+    </unity>
+</configuration>

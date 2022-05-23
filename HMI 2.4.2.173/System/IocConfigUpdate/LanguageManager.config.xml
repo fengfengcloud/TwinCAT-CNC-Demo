@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>   
+    <unity>
+        <container> 
+            <!-- Beckhoff Application LanguageManager Interface -->
+            <type type="Beckhoff.App.Core.Interfaces.IBALanguage, Beckhoff.App.Core.Interfaces" mapTo="Beckhoff.App.Core.Language.CTCLManager, Beckhoff.App.Core.Language.Tclm">
+                <lifetime type="singleton" />
+            </type>                
+        </container>
+    </unity>
+</configuration>
